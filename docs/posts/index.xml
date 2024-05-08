@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on bytehero.io</title>
-    <link>http://localhost:1313/docs/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on bytehero.io</description>
     <generator>Hugo -- 0.125.6</generator>
     <language>en</language>
     <lastBuildDate>Wed, 08 May 2024 10:39:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/docs/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Paperless Postgres Encoding Error</title>
-      <link>http://localhost:1313/docs/posts/paperless-postgres-encoding-error/</link>
+      <link>http://localhost:1313/posts/paperless-postgres-encoding-error/</link>
       <pubDate>Wed, 08 May 2024 10:39:00 +0200</pubDate>
-      <guid>http://localhost:1313/docs/posts/paperless-postgres-encoding-error/</guid>
+      <guid>http://localhost:1313/posts/paperless-postgres-encoding-error/</guid>
       <description></description>
     </item>
     <item>
       <title>Hands on the Thule Easyfold Xt2</title>
-      <link>http://localhost:1313/docs/posts/hands-on-the-thule-easyfold-xt2/</link>
+      <link>http://localhost:1313/posts/hands-on-the-thule-easyfold-xt2/</link>
       <pubDate>Tue, 07 May 2024 08:20:22 +0200</pubDate>
-      <guid>http://localhost:1313/docs/posts/hands-on-the-thule-easyfold-xt2/</guid>
+      <guid>http://localhost:1313/posts/hands-on-the-thule-easyfold-xt2/</guid>
       <description>Next to our little Parson Russel terrier Toni, buying e-bikes was the best investment we made last year. Since we purchased them in February, right before the great corona run on the bike-retailers, we could use the full spring until fall for tours at home as well as the lovely and diverse Rhine and Moselle area.
 However, since we had a journey of about forty kilometres to the last destinations, it was energy- and time-consuming to get two e-bikes in my 2016 Mercedes A-Class hatchback every time.</description>
     </item>

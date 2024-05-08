@@ -1,4 +1,4 @@
-baseURL: "https://mightyjens.github.io/docs/"
+baseURL: "https://mightyjens.github.io/"
 title: bytehero.io
 paginate: 5
 theme: PaperMod
