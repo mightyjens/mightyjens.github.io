@@ -6,7 +6,7 @@ categories: ["general"]
 author: ["mightyjens"]
 categories_weight: 10
 cover:
-  image: posts/welcome-new-blog/msg.png
+  image: posts/2024/welcome-new-blog/msg.png
   caption: ""
   hiddenInList: false
 comments: false
