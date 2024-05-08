@@ -14,7 +14,6 @@ cover:
 comments: false
 showToc: false
 TocOpen: false
-hidemeta: false
 ShowReadingTime: false
 ShowBreadCrumbs: true
 ShowPostNavLinks: true

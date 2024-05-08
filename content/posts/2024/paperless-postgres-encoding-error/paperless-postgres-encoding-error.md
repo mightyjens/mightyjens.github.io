@@ -8,12 +8,6 @@ categories_weight: 20
 comments: false
 showToc: false
 TocOpen: false
-hidemeta: false
-disableShare: false
-disableHLJS: false
-hideSummary: false
-searchHidden: false
-ShowReadingTime: false
 ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
