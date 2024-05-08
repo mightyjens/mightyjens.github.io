@@ -41,7 +41,7 @@ params:
   ShowBreadCrumbs: true
   homeInfoParams:
     Title: Welcome
-    Content: Hi, I’m Jens Fritzsche, an IT guy and developer... Welcome to my personal blog :)
+    Content: Hi, I’m Jens Fritzsche, an IT guy and developer... Welcome to my personal blog :) In this blog, I would like to share a couple of my ideas and findings.
 
   socialIcons: # optional
     - name: "twitter"

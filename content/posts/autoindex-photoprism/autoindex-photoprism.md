@@ -4,9 +4,6 @@ date: 2024-04-08T12:33:51+02:00
 categories: "linux"
 categories_weight: 10
 ShowToc: false
-cover:
-  image: images/msg.png
-  caption: "test"
 ---
 
 If you’re an avid user of the open-source image library Photoprism, you know how convenient and powerful it can be for managing and organizing your photo collection. However, keeping your library indexed and up to date manually can be a tedious task. Thankfully, with a simple cronjob in Linux, you can automate the indexing process and ensure your Photoprism library stays current without any manual intervention.
