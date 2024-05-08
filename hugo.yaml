@@ -51,6 +51,7 @@ markup:
 
 params:
   env: production
+  #ShowRssButtonInSectionTermList: true
   ShowFullTextinRSS: true
   comments: true
   ShowBreadCrumbs: true
