@@ -1,7 +1,11 @@
-+++
-title = 'Paperless NGX: Conversion between UTF8 and SQL_ASCII is not supported'
-date = 2024-05-08T11:17:02+02:00
-+++
+---
+title: 'Paperless NGX: Conversion between UTF8 and SQL_ASCII is not supported'
+date: 2024-05-08T11:17:02+02:00
+categories: "linux"
+categories_weight: 20
+ShowToc: false
+---
+
 Maybe it will help some of you, but I just had an error updating 2.8.0 on my Paperless NGX instance.
 When trying to migrate the changes, the following error occured:
 

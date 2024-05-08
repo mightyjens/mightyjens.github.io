@@ -1,4 +1,62 @@
-baseURL: https://mightyjens.github.io/bytehero/
+baseURL: https://mightyjens.github.io/bytehero
 languageCode: en-us
 title: bytehero.io
 theme: PaperMod
+
+# taxonomies as per Hugo's taxonomy feature
+taxonomies:
+  category: "categories"
+
+# menu as per Hugo's menu feature
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: search
+      name: search
+      url: /search
+      weight: 20
+    - identifier: archive
+      name: archive
+      url: /archives
+      weight: 30
+    - identifier: about
+      name: about
+      url: /about
+      weight: 40
+
+markup:
+  highlight:
+    # anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    # noClasses: false
+    style: monokai
+
+params:
+  # comments: true
+  ShowBreadCrumbs: true
+  homeInfoParams:
+    Title: Welcome
+    Content: Hi, I’m Jens Fritzsche, an IT guy and developer... Welcome to my personal blog :)
+
+  socialIcons: # optional
+    - name: "twitter"
+      url: "https://twitter.com/mightyjens"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/jensfritzsche"
+    - name: "github"
+      url: "https://https://github.com/mightyjens"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+services:
+  disqus:
+    shortname: bytehero-io
