@@ -1,0 +1,4 @@
+baseURL: "http://mightyjens.github.io/"
+title: bytehero.io
+paginate: 5
+theme: PaperMod
