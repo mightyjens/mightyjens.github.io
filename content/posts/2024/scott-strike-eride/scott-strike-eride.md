@@ -1,7 +1,7 @@
 ---
 title: 'Scott Strike Eride 930'
 date: 2024-05-08T20:41:45+02:00
-draft: false
+draft: true
 author: ["mightyjens"]
 categories: ["reviews"]
 tags: ["Review","Products","E-Bike"]
