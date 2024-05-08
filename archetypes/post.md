@@ -7,6 +7,6 @@ categories_weight: 10
 ShowToc: false
 TocOpen: false
 cover:
-  image: images/msg.png
+  image: posts/welcome-new-blog/msg.png
   caption: ""
 ---
