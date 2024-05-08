@@ -1,5 +1,5 @@
 ---
-title: 'Automating Photoprism Indexing with a Simple Cronjob in Linux'
+title: 'Automating Photoprism Indexing'
 date: 2024-04-08T12:33:51+02:00
 author: ["mightyjens"]
 categories: ["linux"]

@@ -1,4 +1,4 @@
 ---
-title: "linux1"
+title: "linux"
 layout: "tags"
 ---

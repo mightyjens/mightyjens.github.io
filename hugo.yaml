@@ -15,21 +15,22 @@ taxonomies:
 # menu as per Hugo's menu feature
 menu:
   main:
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 10
-    #- identifier: search
-    #  name: search
-    #  url: /search
-    #  weight: 20
-    - identifier: archive
-      name: Archive
-      url: /archives
-      weight: 30
     - identifier: about
       name: About
       url: /about
+      weight: 10
+    - identifier: archive
+      name: Archive
+      url: /archives
+      weight: 20
+    
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search
       weight: 40
     - identifier: blog
       name: Blog
@@ -50,6 +51,7 @@ markup:
 
 params:
   env: production
+  ShowFullTextinRSS: true
   comments: true
   ShowBreadCrumbs: true
   homeInfoParams:
@@ -70,6 +72,8 @@ params:
       url: "https://https://github.com/mightyjens"
     - name: "other"
       url: "https://www.j3ns.de"
+    - name: "rss"
+      url: "https://www.bytehero.io/index.xml"
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
 
