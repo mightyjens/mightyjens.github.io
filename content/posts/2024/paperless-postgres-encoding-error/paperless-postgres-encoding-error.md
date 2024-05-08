@@ -2,8 +2,8 @@
 title: 'Paperless NGX: Conversion between UTF8 and SQL_ASCII is not supported'
 date: 2024-05-08T11:17:02+02:00
 author: ["mightyjens"]
-categories: ["general"]
-tags: ["Open Source"]
+categories: ["paperless"]
+tags: ["Open Source","Selfhosted","Paperless"]
 categories_weight: 20
 comments: false
 showToc: false
