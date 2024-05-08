@@ -2,6 +2,7 @@
 title: 'About'
 date: 2024-05-08T11:17:02+02:00
 ShowBreadCrumbs: false
+comments: false
 ---
 
 Hi, my name is Jens. Since 2012 I am employed as technical consultant and developer at Comsol Unternehmenslösungen AG in Kronberg/Taunus. My main task is the architecture and implementation of complex, often cross-technology connections to the ERP Microsoft Dynamics 365 Business Central. 

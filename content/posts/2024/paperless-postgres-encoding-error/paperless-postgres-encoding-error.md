@@ -2,10 +2,21 @@
 title: 'Paperless NGX: Conversion between UTF8 and SQL_ASCII is not supported'
 date: 2024-05-08T11:17:02+02:00
 author: ["mightyjens"]
-categories: "linux"
+categories: ["general"]
 tags: ["Open Source"]
 categories_weight: 20
-ShowToc: false
+comments: false
+showToc: false
+TocOpen: false
+hidemeta: false
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: false
+ShowReadingTime: false
+ShowWordCount: false
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
 ---
 
 Maybe it will help some of you, but I just had an error updating 2.8.0 on my Paperless NGX instance.

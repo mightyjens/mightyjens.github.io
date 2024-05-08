@@ -50,7 +50,7 @@ markup:
 
 params:
   env: production
-  # comments: true
+  comments: true
   ShowBreadCrumbs: true
   homeInfoParams:
     Title: Welcome
@@ -70,17 +70,11 @@ params:
       url: "https://https://github.com/mightyjens"
     - name: "other"
       url: "https://www.j3ns.de"
-  editPost:
-    URL: "https://github.com/mightyjens/mightyjens.github.io/tree/main/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
 
 outputs:
   home:
     - HTML
     - RSS
-    - JSON # necessary for search
-
-services:
-  disqus:
-    shortname: bytehero-io
+    - JSON

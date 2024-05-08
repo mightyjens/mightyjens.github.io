@@ -3,14 +3,26 @@ title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 date: {{ .Date }}
 draft: true
 author: ["mightyjens"]
-categories: "general"
+categories: ["general"]
 tags: [""]
 series: [""]
 categories_weight: 10
-ShowToc: false
-TocOpen: false
 cover:
   image: posts/welcome-new-blog/msg.png
   caption: ""
   hiddenInList: true
+comments: false
+showToc: false
+TocOpen: false
+hidemeta: false
+ShowReadingTime: false
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+UseHugoToc: true
+editPost:
+    URL: "https://github.com/mightyjens/mightyjens.github.io/tree/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+  
 ---
