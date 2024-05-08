@@ -1,25 +1,27 @@
 ---
 title: 'Automating Photoprism Indexing with a Simple Cronjob in Linux'
 date: 2024-04-08T12:33:51+02:00
+author: ["mightyjens"]
 categories: "linux"
+tags: ["Open Source"]
 categories_weight: 10
 ShowToc: false
 ---
 
 If you’re an avid user of the open-source image library Photoprism, you know how convenient and powerful it can be for managing and organizing your photo collection. However, keeping your library indexed and up to date manually can be a tedious task. Thankfully, with a simple cronjob in Linux, you can automate the indexing process and ensure your Photoprism library stays current without any manual intervention.
 
-# Automating Indexing with Cron
-Create the shell-script auto_index.sh
+## Indexing with Cron
+1. Create the shell-script auto_index.sh
 
-```
+``` bash
 set -o allexport; source /opt/photoprism/config/.env; set +o allexport
 cd /opt/photoprism/bin/
 ./photoprism index
 ```
-- Make it executable using chmod -x auto_index.sh
-- Add it to your crontabs using crontabs -e
+2. Make it executable using chmod -x auto_index.sh
+3. Add it to your crontabs using crontabs -e
 
-```
+``` bash
 #Run Photoprism indexing every day
 @daily /opt/photoprism/photoprism index
 ```

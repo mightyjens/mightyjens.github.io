@@ -9,4 +9,5 @@ TocOpen: false
 cover:
   image: posts/welcome-new-blog/msg.png
   caption: ""
+  hiddenInList: true
 ---

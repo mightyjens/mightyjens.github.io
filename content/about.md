@@ -1,7 +1,9 @@
-+++
-title = 'About'
-date = 2024-05-08T11:17:02+02:00
-+++
+---
+title: 'About'
+date: 2024-05-08T11:17:02+02:00
+ShowBreadCrumbs: false
+---
+
 Hi, my name is Jens. Since 2012 I am employed as technical consultant and developer at Comsol Unternehmenslösungen AG in Kronberg/Taunus. My main task is the architecture and implementation of complex, often cross-technology connections to the ERP Microsoft Dynamics 365 Business Central. 
 
 My professional career is one of the main objectives of this blog. Here I would like to share ideas, thoughts, and solutions around technology topics such as Microsoft Business Central 365, Python, C# and Node.JS. But there might additionally appear some other topics of my interest, like product/app reviews or even travel-logs.

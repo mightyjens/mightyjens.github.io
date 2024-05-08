@@ -3,45 +3,63 @@ languageCode: en-us
 title: bytehero.io
 theme: PaperMod
 
+enableRobotsTXT: true
+enableEmoji: true
+
 # taxonomies as per Hugo's taxonomy feature
 taxonomies:
-  category: "categories"
+  category: categories
+  tag: tags
+  series: series
 
 # menu as per Hugo's menu feature
 menu:
   main:
     - identifier: categories
-      name: categories
+      name: Categories
       url: /categories/
       weight: 10
-    - identifier: search
-      name: search
-      url: /search
-      weight: 20
+    #- identifier: search
+    #  name: search
+    #  url: /search
+    #  weight: 20
     - identifier: archive
-      name: archive
+      name: Archive
       url: /archives
       weight: 30
     - identifier: about
-      name: about
+      name: About
       url: /about
       weight: 40
+    - identifier: blog
+      name: Blog
+      url: https://www.j3ns.de
+      weight: 50
 
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
-    # anchorLineNos: true
-    codeFences: true
+    noClasses: false
+    #anchorLineNos: true
+    #codeFences: true
     guessSyntax: true
     lineNos: true
-    # noClasses: false
     style: monokai
 
 params:
+  env: production
   # comments: true
   ShowBreadCrumbs: true
   homeInfoParams:
     Title: Welcome
-    Content: Hi, I’m Jens Fritzsche, an IT guy and developer... Welcome to my personal blog :) In this blog, I would like to share a couple of my ideas and findings.
+    Content: >
+      Hi, my name is Jens, an IT guy and developer... Welcome to my personal blog :) 
+
+      - I would like to share a couple of my ideas and findings here, but not only technical stuff.
+
+      - So there might be one or the other review or posts about products.
 
   socialIcons: # optional
     - name: "twitter"
@@ -50,6 +68,12 @@ params:
       url: "https://www.linkedin.com/in/jensfritzsche"
     - name: "github"
       url: "https://https://github.com/mightyjens"
+    - name: "other"
+      url: "https://www.j3ns.de"
+  editPost:
+    URL: "https://github.com/mightyjens/mightyjens.github.io/tree/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 
 outputs:
   home:
