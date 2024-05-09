@@ -15,7 +15,12 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: false
 UseHugoToc: true
+cover:
+  image: posts/2021/thule-easyfold-xt2/thule-easyfold-xt2.jpeg
+  caption: ""
+  hiddenInList: false
 ---
+
 Next to our little [Parson Russel terrier Toni](https://www.instagram.com/_toni_jackrussell/), buying e-bikes was the best investment we made last year. Since we purchased them in February, right before the great corona run on the bike-retailers, we could use the full spring until fall for tours at home as well as the lovely and diverse Rhine and Moselle area.
 
 However, since we had a journey of about forty kilometres to the last destinations, it was energy- and time-consuming to get two e-bikes in my 2016 Mercedes A-Class hatchback every time. Yes, you could fit two e-bikes in this compact car! However, not only my nerves, but also the surface of the car suffered. (Apart from the fact that the dog had to ride along thereby in the foot space… which he loved… but could have had consequences when facing a police control)

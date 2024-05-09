@@ -25,7 +25,7 @@
         
         function getGiscusTheme() {
             const preferredTheme = localStorage.getItem("pref-theme");
-            const giscusTheme = preferredTheme == null || preferredTheme == "dark_dimmed" ? "dark_dimmed" : "light";
+            const giscusTheme = "dark_dimmed" ? "dark_dimmed" : "light";
             return giscusTheme;
         }
 

@@ -15,7 +15,12 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: false
 UseHugoToc: true  
+cover:
+  image: posts/2022/thule-snowpack/thule-snowpack-wallpaper.jpeg
+  caption: ""
+  hiddenInList: false
 ---
+
 Contrary to my planning to buy a full-size roof box, I have now decided for the Thule SnowPack in size M for this year’s skiing season. In this short review I would like to show this in combination with the Thule Wingbar roof racks. Since we regularly go skiing with multiple people, I decided to get a carrier that can carry up to four pairs of skis.
 
 ## Features

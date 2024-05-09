@@ -78,6 +78,9 @@ params:
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
 
+  assets:
+    favicon: "/assets/favicon.ico"
+
 outputs:
   home:
     - HTML

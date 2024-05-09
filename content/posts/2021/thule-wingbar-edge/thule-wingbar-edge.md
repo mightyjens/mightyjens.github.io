@@ -15,6 +15,10 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: false
 UseHugoToc: true
+cover:
+  image: posts/2021/thule-wingbar-edge/thule-wingbar-edge.jpeg
+  caption: ""
+  hiddenInList: false
 ---
 Just as I have written a review on the Thule EasyFold XT2 this spring, I would like to write a compact check-up, suitable for the start of the winter season, about the Thule Wingbar Edge 9582 (B) black edition that I purchased for little below three hundred Euros.
 
