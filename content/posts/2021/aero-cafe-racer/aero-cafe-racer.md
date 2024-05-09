@@ -1,6 +1,6 @@
 ---
 title: 'Aero Leather – Cafe Racer jacket'
-date: 2024-05-09T14:58:50+02:00
+date: 2021-03-01T14:58:50+02:00
 draft: false
 author: ["mightyjens"]
 categories: ["general"]
