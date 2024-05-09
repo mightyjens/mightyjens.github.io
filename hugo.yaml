@@ -54,6 +54,7 @@ params:
   ShowFullTextinRSS: true
   comments: true
   ShowBreadCrumbs: true
+  defaultTheme: dark
   homeInfoParams:
     Title: <i class="fa-brands fa-codepen"></i>&nbsp;Welcome
     Content: >
