@@ -63,17 +63,22 @@
   --color-fg-default: #adbac7;
   --color-fg-muted: #768390;
   --color-fg-subtle: #636e7b;
+  
   --color-canvas-default: #29292e;
   --color-canvas-overlay: #2e2e33;
   --color-canvas-inset: #2e2e33;
   --color-canvas-subtle: #2e2e33;
-  --color-border-default: #444c56;
+  --color-border-default: #3c434d;
+  
   --color-border-muted: #373e47;
   --color-neutral-muted: rgb(99 110 123 / 40%);
   --color-accent-fg: #539bf5;
   --color-accent-emphasis: #316dca;
-  --color-accent-muted: rgb(65 132 228 / 40%);
+  
+  --color-accent-muted: #3c434d;
   --color-accent-subtle: rgb(65 132 228 / 10%);
+  
+  
   --color-success-fg: #57ab5a;
   --color-attention-fg: #c69026;
   --color-attention-muted: rgb(174 124 20 / 40%);
