@@ -11,7 +11,7 @@ cover:
   image: posts/welcome-new-blog/msg.png
   caption: ""
   hiddenInList: true
-comments: false
+comments: true
 showToc: false
 TocOpen: false
 ShowReadingTime: false
