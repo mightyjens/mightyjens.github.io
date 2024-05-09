@@ -7,7 +7,7 @@ categories: ["reviews"]
 tags: ["Products","Reviews","Apps"]
 series: [""]
 categories_weight: 10
-comments: true
+comments: false
 showToc: true
 TocOpen: false
 ShowReadingTime: false

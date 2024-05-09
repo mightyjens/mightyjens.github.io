@@ -22,8 +22,7 @@ menu:
     - identifier: archive
       name: Archive
       url: /archives
-      weight: 20
-    
+      weight: 20 
     - identifier: categories
       name: Categories
       url: /categories/
@@ -56,7 +55,7 @@ params:
   comments: true
   ShowBreadCrumbs: true
   homeInfoParams:
-    Title: Welcome
+    Title: <i class="fa-brands fa-codepen"></i>&nbsp;Welcome
     Content: >
       Hi, my name is Jens, an IT guy and developer... Welcome to my personal blog :) 
 
@@ -64,7 +63,7 @@ params:
 
       - So there might be one or the other review or posts about products.
 
-  socialIcons: # optional
+  socialIcons:
     - name: "twitter"
       url: "https://twitter.com/mightyjens"
     - name: "linkedin"
