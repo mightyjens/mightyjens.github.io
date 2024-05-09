@@ -3,7 +3,7 @@
     <script>
         function getGiscusTheme() {
             const preferredTheme = localStorage.getItem("pref-theme");
-            const giscusTheme = preferredTheme == null || preferredTheme == "light" ? "light" : "dark";
+            const giscusTheme = preferredTheme == null || preferredTheme == "light" ? "light" : "dark_dimmed";
             return giscusTheme;
         }
 
@@ -15,7 +15,7 @@
             }
             sendMessage({
                 setConfig: {
-                    theme: getGiscusTheme() == "light" ? "dark" : "light",
+                    theme: getGiscusTheme() == "light" ? "dark_dimmed" : "light",
                 },
             });
         }
@@ -34,7 +34,7 @@
             "data-theme": getGiscusTheme(),
             "data-lang": "en",
             "crossorigin": "anonymous",
-            "async": ""
+            "async": "1"
         };
 
         const giscusScript = document.createElement("script");

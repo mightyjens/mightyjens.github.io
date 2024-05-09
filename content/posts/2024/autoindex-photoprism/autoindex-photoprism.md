@@ -5,7 +5,7 @@ author: ["mightyjens"]
 categories: ["linux"]
 tags: ["Open Source","Selfhosted"]
 categories_weight: 10
-comments: false
+comments: true
 showToc: false
 TocOpen: false
 ShowWordCount: false

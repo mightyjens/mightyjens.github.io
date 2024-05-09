@@ -16,7 +16,7 @@ ShowPostNavLinks: true
 ShowWordCount: false
 UseHugoToc: true
 ---
-Next to our little Parson Russel terrier Toni, buying e-bikes was the best investment we made last year. Since we purchased them in February, right before the great corona run on the bike-retailers, we could use the full spring until fall for tours at home as well as the lovely and diverse Rhine and Moselle area.
+Next to our little [Parson Russel terrier Toni](https://www.instagram.com/_toni_jackrussell/), buying e-bikes was the best investment we made last year. Since we purchased them in February, right before the great corona run on the bike-retailers, we could use the full spring until fall for tours at home as well as the lovely and diverse Rhine and Moselle area.
 
 However, since we had a journey of about forty kilometres to the last destinations, it was energy- and time-consuming to get two e-bikes in my 2016 Mercedes A-Class hatchback every time. Yes, you could fit two e-bikes in this compact car! However, not only my nerves, but also the surface of the car suffered. (Apart from the fact that the dog had to ride along thereby in the foot space… which he loved… but could have had consequences when facing a police control)
 
@@ -24,9 +24,9 @@ Since I was thankfully allowed to order a new company car in September 2020, it 
 
 
 ## The Competitors
-In the shortlist were the Atera Strade E-Bike M, the Uebler i21 and the pricier, but more flexible EasyFold XT 2 by Thule. I have informed myself in various forums and blogs and have decided for the latter because of the known Thule quality and flexibility of the folding mechanism. Additionally, the 60kg payload and lockable holding arms stand on the positive side. Sure, the Atera would have made his job as well, but as long as I must drag the bike-rack for about thirty meters from the basement to the parking lot, its folding capability is worth the significant additional price… at least in my opinion. To take it in advance, I have not regretted it for a second!
+In the shortlist were the Atera Strade E-Bike M, the Uebler i21 and the pricier, but more flexible *EasyFold XT 2* by Thule. I have informed myself in various forums and blogs and have decided for the latter because of the known Thule quality and flexibility of the folding mechanism. Additionally, the 60kg payload and lockable holding arms stand on the positive side. Sure, the Atera would have made his job as well, but as long as I must drag the bike-rack for about thirty meters from the basement to the parking lot, its folding capability is worth the significant additional price… at least in my opinion. To take it in advance, I have not regretted it for a second!
 
-But now to the actual review, for which I documented the mounting of the e-bikes besides the installation of the bike-rack. Especially my “angular” 2019 Canyon Neuron:ON 8.0 (Size L) brought some challenges with it and made the purchase of an additional accessory indispensable. As I use the EasyFold XT2 for a couple of weeks now, I think i could give a first review…
+But now to the actual review, for which I documented the mounting of the e-bikes besides the installation of the bike-rack. Especially my “angular” 2019 Canyon Neuron:ON 8.0 (Size L) brought some challenges with it and made the purchase of an additional accessory indispensable. As I use the *EasyFold XT2* for a couple of weeks now, I think i could give a first review…
 
 
 **Update #1:** Meanwhile, the carrier has won a competition of German Stiftung Warentest, confirming my decision:
@@ -66,7 +66,7 @@ But now to the actual review, for which I documented the mounting of the e-bikes
 Information from Thule.com
 
 ## Usage
-The EasyFold XT2 arrives completely assembled and ready to use. Besides the bike-rack itself there are the two keys, a guarantee card and manual in the box. If you have other Thule products in use, you might match the keys via the Thule One-Key System.
+The *EasyFold XT2* arrives completely assembled and ready to use. Besides the bike-rack itself there are the two keys, a guarantee card and manual in the box. If you have other Thule products in use, you might match the keys via the Thule One-Key System.
 
 ### Folding mechanism
 The folding mechanism is solved in a very smart way. Both wheel holders of the carrier can be folded upwards by 90 degrees. In addition, the license plate swivels into a vertical position, so the carrier can be transported very easily using the handle.
@@ -108,7 +108,7 @@ The EasyFold XT2 has a switch that allows you to fold the entire carrier backwar
 ![Thule EasyFold XT 2](../2021-03-26-17_10_48-Window-1024x663.webp)
 
 ## Final Verdict
-As I already mentioned in the beginning, I have never regretted buying the Thule EasyFold XT2. The folding mechanism makes the transport and mounting extremely easy, so you don’t need half the morning to prepare the car. On the contrary, you can mount the carrier in minutes, which also makes a spontaneous tour with friends from out of town possible. Everyone must decide for themselves whether the folding mechanism is worth the extra cost… for me it is.
+As I already mentioned in the beginning, I have never regretted buying the *Thule EasyFold XT2*. The folding mechanism makes the transport and mounting extremely easy, so you don’t need half the morning to prepare the car. On the contrary, you can mount the carrier in minutes, which also makes a spontaneous tour with friends from out of town possible. Everyone must decide for themselves whether the folding mechanism is worth the extra cost… for me it is.
 
 
 |<div style="width:345px">Pro</div>|<div style="width:345px">Contra</div>|

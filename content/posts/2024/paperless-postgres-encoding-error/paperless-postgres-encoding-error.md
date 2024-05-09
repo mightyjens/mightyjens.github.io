@@ -5,7 +5,7 @@ author: ["mightyjens"]
 categories: ["paperless"]
 tags: ["Open Source","Selfhosted","Paperless"]
 categories_weight: 20
-comments: false
+comments: true
 showToc: false
 TocOpen: false
 ShowWordCount: false
