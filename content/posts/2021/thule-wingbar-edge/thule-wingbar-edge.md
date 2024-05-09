@@ -5,7 +5,7 @@ draft: false
 author: ["mightyjens"]
 categories: ["reviews"]
 tags: ["Products","Reviews","Thule"]
-series: [""]
+series: ["thule"]
 categories_weight: 10
 comments: true
 showToc: true
