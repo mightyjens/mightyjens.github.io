@@ -3,7 +3,7 @@
  * https://github.com/primer/primitives/blob/main/LICENSE
  */
 
- main {
+main {
   --color-prettylights-syntax-comment: #768390;
   --color-prettylights-syntax-constant: #6cb6ff;
   --color-prettylights-syntax-entity: #dcbdfb;
@@ -63,25 +63,25 @@
   --color-fg-default: #adbac7;
   --color-fg-muted: #768390;
   --color-fg-subtle: #636e7b;
-  
+
   --color-canvas-default: #37383E;
   --color-canvas-overlay: #333333;
   --color-canvas-inset: #333333;
   --color-canvas-subtle: #333333;
   --color-border-default: #3c434d;
-  
+
   --color-border-muted: #373e47;
   --color-neutral-muted: rgb(99 110 123 / 40%);
-  
+
   --color-accent-fg: #707885;
 
 
   --color-accent-emphasis: #707885;
-  
+
   --color-accent-muted: #3c434d;
   --color-accent-subtle: rgb(65 132 228 / 10%);
-  
-  
+
+
   --color-success-fg: #57ab5a;
   --color-attention-fg: #c69026;
   --color-attention-muted: rgb(174 124 20 / 40%);
@@ -104,4 +104,12 @@ main .pagination-loader-container {
 
 main .gsc-loading-image {
   background-image: url("https://github.githubassets.com/images/mona-loading-dimmed.gif");
+}
+
+html {
+
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-break: break-word;
 }
