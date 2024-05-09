@@ -27,19 +27,19 @@ Contrary to my planning to buy a full-size roof box, I have now decided for the 
 
 ## Technical Details
 
-|||
-|---|---|
-|Load capacity skis (pairs)|	Up to 4 pair|
-|Load capacity snowboards|	Up to 2 boards|
-|Dimensions|	24.4 x 2.8 x 3.9 in|
-|Loading width|	19.6 in|
-|Extra large push-button|	✓ |
-|Room for high bindings|	✓ |
-|Locks skis to carrier|	✓ |
-|Color|	Black|
+|                           ||
+|---------------------------|---|
+|Load capacity skis (pairs) |	Up to 4 pair|
+|Load capacity snowboards   |	Up to 2 boards|
+|Dimensions                 |	24.4 x 2.8 x 3.9 in|
+|Loading width              |	19.6 in|
+|Extra large push-button    |	✓ |
+|Room for high bindings     |	✓ |
+|Locks skis to carrier      |	✓   |
+|Color                      |	Black |
 |Fits Thule TracRac – Truck	|✓ |
-|Fits Thule TracRac – Van	|✓ |
-|Model number	|7324B|
+|Fits Thule TracRac – Van	  |✓ |
+|Model number	              |7324B|
 
 Information taken from Thule.com
 
@@ -47,7 +47,7 @@ Information taken from Thule.com
 
 The package does not contain any big surprises. There are the two ski mounts included, adapter plates to increase the distance to the roof, appropriately sized retaining screws and a Thule typical manual. As usual the keys could be replaced by the Thule One-Key system.
 
-![Thule Snowpack](./thule-snowpack.webp)
+![Thule Snowpack](../thule-snowpack.webp)
 
 ## Mounting
 
