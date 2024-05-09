@@ -8,14 +8,14 @@
                 // Check if the dark-mode Media-Query matches
                 console.log("inside 1");
                 if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-                    theme = "dark_dimmed";
+                    theme = "https://www.bytehero.io/css/dark_dimmed_bytehero.css";
                 } else {
                     theme = "light";
                 }
             } else {
                 theme = localStorage.getItem("theme");
             }
-            return theme === "dark_dimmed" ? "dark_dimmed" : "light";
+            return theme === "https://www.bytehero.io/css/dark_dimmed_bytehero.css" ? "https://www.bytehero.io/css/dark_dimmed_bytehero.css" : "light";
         }
 
         if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
@@ -30,7 +30,7 @@
             }
             sendMessage({
                 setConfig: {
-                    theme: getGiscusTheme() == "dark_dimmed" ? "light" : "dark_dimmed",
+                    theme: getGiscusTheme() == "https://www.bytehero.io/css/dark_dimmed_bytehero.css" ? "light" : "https://www.bytehero.io/css/dark_dimmed_bytehero.css",
                 },
             });
 
@@ -49,7 +49,7 @@
             "data-reactions-enabled": "0",
             "data-emit-metadata": "0",
             "data-input-position": "bottom",
-            "data-theme": "https://www.bytehero.io/css/dark_dimmed_bytehero.css",
+            "data-theme": getGiscusTheme(),
             "data-lang": "en",
             "crossorigin": "anonymous",
             "async": "1"
