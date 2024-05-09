@@ -27,7 +27,7 @@ Contrary to my planning to buy a full-size roof box, I have now decided for the 
 
 ## Technical Details
 
-|                           ||
+|<div style="width:345px"></div>|<div style="width:345px"></div>|
 |---------------------------|---|
 |Load capacity skis (pairs) |	Up to 4 pair|
 |Load capacity snowboards   |	Up to 2 boards|
@@ -63,7 +63,7 @@ Similar to other ski racks I’ve owned, the reality here lags behind the manufa
 
 Unlike the carriers I used on my old A-Class, I find the Thule SnowPack carriers to be very high quality. Both the attachment and the mounting of skis work flawlessly. Of course, however, the driving noise is much more noticeable than, for example, with an aerodynamic roof box. All in all, though, I’ll be replacing the ski racks with a full-size roof box later this year.
 
-|Pro	|Contra|
+|<div style="width:345px">Pro</div>	|<div style="width:345px">Contra</div>|
 |---|---|
 |Good build quality	|Not the cheapest|
 |Fits modern skis easily	|Noisy at higher speeds|
