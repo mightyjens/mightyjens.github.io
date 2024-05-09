@@ -36,7 +36,7 @@ But now to the actual review, for which I documented the mounting of the e-bikes
 © Stiftung Warentest
 
 
-![Thule EasyFold XT 2](../2021-03-26-17_11_21-Window-1024x714.webp)
+![Thule EasyFold XT 2](../2021-03-26-17_11_21-Window-1024x714.png)
 
 ## Technical information
 
@@ -71,7 +71,7 @@ The EasyFold XT2 arrives completely assembled and ready to use. Besides the bike
 The folding mechanism is solved in a very smart way. Both wheel holders of the carrier can be folded upwards by 90 degrees. In addition, the license plate swivels into a vertical position, so the carrier can be transported very easily using the handle.
 
 ![Thule EasyFold XT 2](../2021-03-26-16_59_06-iCloud-Fotos-und-1-weitere-Seite-Personlich-–-Microsoft_-Edge.webp)
-![Thule EasyFold XT 2](../2021-03-26-17_04_49-iCloud-Fotos-und-1-weitere-Seite-Personlich-–-Microsoft_-Edge-1024x710.webp)
+![Thule EasyFold XT 2](../2021-03-26-17_04_49-iCloud-Fotos-und-1-weitere-Seite-Personlich-–-Microsoft_-Edge-1024x710.png)
 
 ### Attachment to the trailer hitch
 You put the bike-rack on your trailer hitch in the folded state and actuate the (relatively) stiff (because ~40kg of force is needed) lock, which ensures a firm hold on the ball head. The latter can be additionally fine-adjusted by a rotary mechanism, which was not necessary for me. Now you could attach the 13-pin plug into the car’s electric connector. After folding down the wheel holders you are basically done with the installation.
