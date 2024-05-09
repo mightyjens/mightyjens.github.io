@@ -62,7 +62,8 @@ But now to the actual review, for which I documented the mounting of the e-bikes
 |Receiver lock included	 |✓ |
 |Color|	Black/Aluminium|
 |Model number	|903202|
-from Thule.com
+
+Information from Thule.com
 
 ## Usage
 The EasyFold XT2 arrives completely assembled and ready to use. Besides the bike-rack itself there are the two keys, a guarantee card and manual in the box. If you have other Thule products in use, you might match the keys via the Thule One-Key System.
