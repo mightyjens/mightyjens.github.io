@@ -43,7 +43,7 @@ main {
   --color-btn-hover-border: #768390;
   --color-btn-active-bg: hsl(213deg 12% 27% / 100%);
   --color-btn-active-border: #636e7b;
-  --color-btn-selected-bg: #333333;
+  --color-btn-selected-bg: #37383E;
   --color-btn-primary-text: #fff;
   --color-btn-primary-bg: #347d39;
   --color-btn-primary-border: rgb(205 217 229 / 10%);
@@ -65,9 +65,15 @@ main {
   --color-fg-subtle: #636e7b;
 
   --color-canvas-default: #37383E;
-  --color-canvas-overlay: #333333;
-  --color-canvas-inset: #333333;
-  --color-canvas-subtle: #333333;
+  
+  
+  
+  --color-canvas-overlay: #37383E;
+  --color-canvas-inset: #37383E;
+  --color-canvas-subtle: #37383E;
+  
+  
+  
   --color-border-default: #3c434d;
 
   --color-border-muted: #373e47;
