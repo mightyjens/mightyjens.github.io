@@ -1,32 +1,25 @@
 <div class="giscus">
 
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            // Select the desktop color mode toggle button
-            const toggleDesktop = document.querySelector('label[for="switch_default"]');
-            // Select the mobile color mode toggle button
-            const toggleMobile = document.querySelector('#mobile-toggle-theme'); // Using ID selector
-
-            // Define a function to handle color mode switching and page refresh
-            function handleToggle() {
-                location.reload();
-            }
-
-            // If the desktop button is found, add a click event listener
-            if (toggleDesktop) {
-                toggleDesktop.addEventListener('click', handleToggle);
-            }
-
-            // If the mobile button is found, add a click event listener
-            if (toggleMobile) {
-                toggleMobile.addEventListener('click', handleToggle);
-            }
-        });
-        
         function getGiscusTheme() {
-            const preferredTheme = localStorage.getItem("pref-theme");
-            const giscusTheme = "dark_dimmed" ? "dark_dimmed" : "light";
-            return giscusTheme;
+            let theme;
+
+            if (window.matchMedia && (localStorage.getItem("theme") === null)) {
+                // Check if the dark-mode Media-Query matches
+                console.log("inside 1");
+                if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                    theme = "dark_dimmed";
+                } else {
+                    theme = "light";
+                }
+            } else {
+                theme = localStorage.getItem("theme");
+            }
+            return theme === "dark_dimmed" ? "dark_dimmed" : "light";
+        }
+
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            //alert("asdasd");
         }
 
         function setGiscusTheme() {
@@ -40,6 +33,9 @@
                     theme: getGiscusTheme() == "dark_dimmed" ? "light" : "dark_dimmed",
                 },
             });
+
+
+
         }
 
         const attrs = {
@@ -53,7 +49,7 @@
             "data-reactions-enabled": "0",
             "data-emit-metadata": "0",
             "data-input-position": "bottom",
-            "data-theme": getGiscusTheme(),
+            "data-theme": "dark_dimmed_bytehero",
             "data-lang": "en",
             "crossorigin": "anonymous",
             "async": "1"
