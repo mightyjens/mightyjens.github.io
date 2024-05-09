@@ -40,7 +40,7 @@ I took this information from the Thule homepage for size M!
 
 Out of the box the Thule Wingbar Edge 9582 comes in several pieces: two main bars with fitted footplates at each end, a rubber strip that needs to be cut with scissors to the appropriate length for your car (the rubber strip sits in a groove on top of the bars to provide a non-slip surface for anything on the roof), four rubberized caps that fit on top of the footplates. Additionally, there’s four locking cylinders and four very heavy-duty rubber straps to secure the bars to the rails, and finally a tool to tighten them. There is a short but understandable manual included.
 
-## Mounting the Thule Wingbar Edge
+## Getting Ready
 
 Mounting the beams is very simple. Basically, you just put them on your railing and hook the rubber bands in the appropriate place. Then you pull the band around the railing and hook it on the top of the Wingbar. Using a special torque-sensitive tool, you then tighten the bands. The tool clicks when the right torque of 2nm is reached.
 
@@ -50,17 +50,17 @@ In any case, you have to make sure that there is still enough space between the 
 
 ![Thule Wingbar Edge](../IMG_4056-1024x768.jpeg.webp)
 
-## Appearance
+### Appearance
 
 I think the rack blends in perfectly with the look of the car. Due to the flat design, it could even be mistaken for an original component. But here you can already guess that you might have problems with the distance to the roof later.
 
 ![Thule Wingbar Edge](../IMG_4055-1024x768.jpeg.webp)
 
-## Driving & Noise
+### Driving & Noise
 
 I have been pleasantly surprised so far. Under 120kph you do not notice any difference whether you are traveling with or without the rack. Above 120kph you perceive the additional wind noise. All in all, however, still in the very pleasant range.
 
-## Additional Fuel Consumption
+### Additional Fuel Consumption
 
 Without additional structures like a roof box, consumption is only minimally higher than normal. This is certainly due to the flat and streamlined body. With a roof box mounted, the whole thing looks quite different, of course… but that should not be the topic here.
 
