@@ -1,6 +1,28 @@
 <div class="giscus">
 
     <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Select the desktop color mode toggle button
+            const toggleDesktop = document.querySelector('label[for="switch_default"]');
+            // Select the mobile color mode toggle button
+            const toggleMobile = document.querySelector('#mobile-toggle-theme'); // Using ID selector
+
+            // Define a function to handle color mode switching and page refresh
+            function handleToggle() {
+                location.reload();
+            }
+
+            // If the desktop button is found, add a click event listener
+            if (toggleDesktop) {
+                toggleDesktop.addEventListener('click', handleToggle);
+            }
+
+            // If the mobile button is found, add a click event listener
+            if (toggleMobile) {
+                toggleMobile.addEventListener('click', handleToggle);
+            }
+        });
+        
         function getGiscusTheme() {
             const preferredTheme = localStorage.getItem("pref-theme");
             const giscusTheme = preferredTheme == null || preferredTheme == "light" ? "light" : "dark_dimmed";
