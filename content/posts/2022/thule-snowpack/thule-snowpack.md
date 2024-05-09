@@ -4,7 +4,7 @@ date: 2022-01-02T07:53:05+02:00
 draft: false
 author: ["mightyjens"]
 categories: ["reviews"]
-tags: ["Products","Reviews"]
+tags: ["Products","Reviews","Thule"]
 series: [""]
 categories_weight: 10
 comments: true
