@@ -52,7 +52,7 @@ Information taken from Thule.com
 
 The package does not contain any big surprises. There are the two ski mounts included, adapter plates to increase the distance to the roof, appropriately sized retaining screws and a Thule typical manual. As usual the keys could be replaced by the Thule One-Key system.
 
-![Thule Snowpack](../thule-snowpack.webp)
+![Thule Snowpack](../thule-snowpack/thule-snowpack.webp)
 
 ## Mounting
 

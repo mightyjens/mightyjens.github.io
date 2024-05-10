@@ -44,12 +44,7 @@ It’s important to take these measurements very carefully:
 
 Arms            |  Back
 :-------------------------:|:-------------------------:
-![Aero Leather – Cafe Racer](../2021-07-09-11_39_39-IMG_3370.JPEG-_-Fotos.png)  |  ![Aero Leather – Cafe Racer](../2021-07-09-11_38_49-IMG_3369.JPEG-_-Fotos.webp)
-
-
-
-
-
+![Aero Leather – Cafe Racer](../aero-cafe-racer/2021-07-09-11_39_39-IMG_3370.JPEG-_-Fotos.png)  |  ![Aero Leather – Cafe Racer](../aero-cafe-racer/2021-07-09-11_38_49-IMG_3369.JPEG-_-Fotos.webp)
 
 **back length:** measure from the seam where the collar joins the back (not including the collar)
 **sleeve length:** measure from the top outside shoulder seam, straight down the sleeve to the cuff
@@ -81,8 +76,8 @@ The thickness and quality can’t be compared to anything I’ve owned before. A
 But now let’s speak a few pictures:
 
 
-![Aero Leather – Cafe Racer](../IMG_3941.webp)
-![Aero Leather – Cafe Racer](../IMG_3943.webp)
+![Aero Leather – Cafe Racer](../aero-cafe-racer/IMG_3941.webp)
+![Aero Leather – Cafe Racer](../aero-cafe-racer/IMG_3943.webp)
 
 ## Verdict
 I can extremely recommend you to give Aero a chance if you like jackets of high quality. They are not comparable to the leather jackets you could buy in the fashion market. Especially the nice and patient service of Holly was simply amazing. With her experience she pushed me and my decisions in exactly the right direction, so that I got my perfect leather jacket in the end.

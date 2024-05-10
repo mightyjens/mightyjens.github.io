@@ -41,7 +41,7 @@ But now to the actual review, for which I documented the mounting of the e-bikes
 © Stiftung Warentest
 
 
-![Thule EasyFold XT 2](../2021-03-26-17_11_21-Window-1024x714.png)
+![Thule EasyFold XT 2](../thule-easyfold-xt2/2021-03-26-17_11_21-Window-1024x714.png)
 
 ## Technical information
 
@@ -76,18 +76,18 @@ The *EasyFold XT2* arrives completely assembled and ready to use. Besides the bi
 ### Folding mechanism
 The folding mechanism is solved in a very smart way. Both wheel holders of the carrier can be folded upwards by 90 degrees. In addition, the license plate swivels into a vertical position, so the carrier can be transported very easily using the handle.
 
-![Thule EasyFold XT 2](../2021-03-26-16_59_06-iCloud-Fotos-und-1-weitere-Seite-Personlich-–-Microsoft_-Edge.webp)
-![Thule EasyFold XT 2](../2021-03-26-17_04_49-iCloud-Fotos-und-1-weitere-Seite-Personlich-–-Microsoft_-Edge-1024x710.png)
+![Thule EasyFold XT 2](../thule-easyfold-xt2/2021-03-26-16_59_06-iCloud-Fotos-und-1-weitere-Seite-Personlich-–-Microsoft_-Edge.webp)
+![Thule EasyFold XT 2](../thule-easyfold-xt2/2021-03-26-17_04_49-iCloud-Fotos-und-1-weitere-Seite-Personlich-–-Microsoft_-Edge-1024x710.png)
 
 ### Attachment to the trailer hitch
 You put the bike-rack on your trailer hitch in the folded state and actuate the (relatively) stiff (because ~40kg of force is needed) lock, which ensures a firm hold on the ball head. The latter can be additionally fine-adjusted by a rotary mechanism, which was not necessary for me. Now you could attach the 13-pin plug into the car’s electric connector. After folding down the wheel holders you are basically done with the installation.
 
 Important Note: Please make sure your car’s trailer hitch supports the weight of both rack and bikes (max. 17,9kg + 60kg)!
 
-![Thule EasyFold XT 2](../2021-03-26-17_01_55-iCloud-Fotos-und-1-weitere-Seite-Personlich-–-Microsoft_-Edge.webp)
-![Thule EasyFold XT 2](../2021-03-26-17_17_57-iCloud-Fotos-Personlich-–-Microsoft_-Edge.webp)
-![Thule EasyFold XT 2](../2021-03-26-17_03_03-iCloud-Fotos-und-1-weitere-Seite-Personlich-–-Microsoft_-Edge-1024x628.webp)
-![Thule EasyFold XT 2](../2021-03-26-17_21_13-iCloud-Fotos-und-1-weitere-Seite-Personlich-–-Microsoft_-Edge-1-1024x884.webp)
+![Thule EasyFold XT 2](../thule-easyfold-xt2/2021-03-26-17_01_55-iCloud-Fotos-und-1-weitere-Seite-Personlich-–-Microsoft_-Edge.webp)
+![Thule EasyFold XT 2](../thule-easyfold-xt2/2021-03-26-17_17_57-iCloud-Fotos-Personlich-–-Microsoft_-Edge.webp)
+![Thule EasyFold XT 2](../thule-easyfold-xt2/2021-03-26-17_03_03-iCloud-Fotos-und-1-weitere-Seite-Personlich-–-Microsoft_-Edge-1024x628.webp)
+![Thule EasyFold XT 2](../thule-easyfold-xt2/2021-03-26-17_21_13-iCloud-Fotos-und-1-weitere-Seite-Personlich-–-Microsoft_-Edge-1-1024x884.webp)
 
 
 ### Mounting e-bikes
@@ -96,21 +96,21 @@ Yes, you’ll have to search for the perfect mounting of your bikes on first ins
 ### Placement on the rack
 To fix the bike, the retaining straps are placed around the rim and tightened. The mechanism for tightening reminds a little of the buckles of ski boots … amazingly easy!
 
-![Thule EasyFold XT 2](../2021-03-26-17_07_18-Window-1024x765.webp)
-![Thule EasyFold XT 2](../2021-03-26-17_07_41-Window-1024x756.webp)
+![Thule EasyFold XT 2](../thule-easyfold-xt2/2021-03-26-17_07_18-Window-1024x765.webp)
+![Thule EasyFold XT 2](../thule-easyfold-xt2/2021-03-26-17_07_41-Window-1024x756.webp)
 
 ### Retention arms
 One disadvantage are the relatively rigid holding arms. Although they are very flexible to attach, I struggled to find a suitable place with the arms on my Neuron:On. While they are self-locking and quays placeable at any point on the rack, I missed the second rotatable axis on them. Therefore, I have additionally purchased a Fiamma Bike Block D2 Pro to securely fix my Canyon Neuron:ON. What is solved genuinely nice is the fixation of the clamps. You cannot turn the locks too tight (and damage your bike) because they trigger at perfect torque (similar to a torque wrench in the car).
 
 
-![Thule EasyFold XT 2](../2021-03-26-17_08_21-iCloud-Fotos-und-1-weitere-Seite-Personlich-–-Microsoft_-Edge-1024x766.webp)
-![Thule EasyFold XT 2](../2021-03-26-17_08_55-iCloud-Fotos-und-1-weitere-Seite-Personlich-–-Microsoft_-Edge-1024x704.webp)
+![Thule EasyFold XT 2](../thule-easyfold-xt2/2021-03-26-17_08_21-iCloud-Fotos-und-1-weitere-Seite-Personlich-–-Microsoft_-Edge-1024x766.webp)
+![Thule EasyFold XT 2](../thule-easyfold-xt2/2021-03-26-17_08_55-iCloud-Fotos-und-1-weitere-Seite-Personlich-–-Microsoft_-Edge-1024x704.webp)
 
 ### Access to the trunk
 The EasyFold XT2 has a switch that allows you to fold the entire carrier backwards… regardless of whether the bicycles are already mounted. This means you always have full access to your trunk. To activate the folding mechanism, you simply press it with your foot which frees up your arms to gently put the carrier in place.
 
 
-![Thule EasyFold XT 2](../2021-03-26-17_10_48-Window-1024x663.webp)
+![Thule EasyFold XT 2](../thule-easyfold-xt2/2021-03-26-17_10_48-Window-1024x663.webp)
 
 ## Final Verdict
 As I already mentioned in the beginning, I have never regretted buying the *Thule EasyFold XT2*. The folding mechanism makes the transport and mounting extremely easy, so you don’t need half the morning to prepare the car. On the contrary, you can mount the carrier in minutes, which also makes a spontaneous tour with friends from out of town possible. Everyone must decide for themselves whether the folding mechanism is worth the extra cost… for me it is.

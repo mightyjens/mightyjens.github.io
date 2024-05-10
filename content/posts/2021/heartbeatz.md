@@ -29,7 +29,7 @@ So, without further ado, I bought it and ordered the device in the States for ab
 The shipping was amazingly fast. After only 5 days the package from the USA was on my doorstep. Concerning the content there’s, what a surprise, not that much to say. A simple plastic package with instructions and the actual chip.
 
 
-![HeartBeatz](../5-1024x530.webp)
+![HeartBeatz](../heartbeatz/5-1024x530.webp)
 The manual contains a step-by-step tutorial to connect the pod.
 
 ## Did I receive a used one?
@@ -38,8 +38,8 @@ However, what I did not like at all is that I must have been sent a used or retu
 
 |   
 :-------------------------:|:-------------------------:
-![HeartBeatz](../6-1.webp)  |  ![HeartBeatz](../7.webp) 
-![HeartBeatz](../9.webp)  | ![HeartBeatz](../8.webp)
+![HeartBeatz](../heartbeatz/6-1.webp)  |  ![HeartBeatz](../heartbeatz/7.webp) 
+![HeartBeatz](../heartbeatz/9.webp)  | ![HeartBeatz](../heartbeatz/8.webp)
 
 After putting my disgust about it into words and disinfecting the device, it was now time for the actual testing of the device. If the hassle and stress of returning the device to the U.S. wasn’t too great, I would have sent it back immediately.
 
@@ -65,8 +65,8 @@ In the next step we pair the Heartbeatz chip with our Garmin device. Pairing the
 
   |   
 :-------------------------:|:-------------------------:
-![HeartBeatz](../1.webp)  |  ![HeartBeatz](../2.webp) 
-![HeartBeatz](../3.webp)  | ![HeartBeatz](../4.webp)
+![HeartBeatz](../heartbeatz/1.webp)  |  ![HeartBeatz](../heartbeatz/2.webp) 
+![HeartBeatz](../heartbeatz/3.webp)  | ![HeartBeatz](../heartbeatz/4.webp)
 
 To finish this, we simply hold the Heartbeatz near the Garmin. It will connect immediately.
 

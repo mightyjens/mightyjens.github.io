@@ -50,15 +50,15 @@ Mounting the beams is very simple. Basically, you just put them on your railing 
 
 In any case, you have to make sure that there is still enough space between the roof rack and the car roof. The bars sit really close. Depending on the box or accessories you want to fit this might even be a little bit too close. My plan is to use the rack with the Thule Pacific 600 or alternatively with the Thule SnowPack.
 
-![Thule Wingbar Edge](../IMG_4057-1024x768.jpeg.webp)
+![Thule Wingbar Edge](../thule-wingbar-edge/IMG_4057-1024x768.jpeg.webp)
 
-![Thule Wingbar Edge](../IMG_4056-1024x768.jpeg.webp)
+![Thule Wingbar Edge](../thule-wingbar-edge/IMG_4056-1024x768.jpeg.webp)
 
 ### Appearance
 
 I think the rack blends in perfectly with the look of the car. Due to the flat design, it could even be mistaken for an original component. But here you can already guess that you might have problems with the distance to the roof later.
 
-![Thule Wingbar Edge](../IMG_4055-1024x768.jpeg.webp)
+![Thule Wingbar Edge](../thule-wingbar-edge/IMG_4055-1024x768.jpeg.webp)
 
 ### Driving & Noise
 
