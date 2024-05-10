@@ -1,5 +1,5 @@
 ---
-title: 'Heartbeatz'
+title: 'Heartbeatz: Apple Watch heartrate on Garmin Edge 830'
 date: 2021-08-24T09:57:00+02:00
 draft: false
 author: ["mightyjens"]
