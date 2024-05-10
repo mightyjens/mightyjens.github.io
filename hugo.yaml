@@ -19,18 +19,23 @@ menu:
       name: About
       url: /about
       weight: 10
-    - identifier: archive
-      name: Archive
-      url: /archives
-      weight: 20
+    #- identifier: archive
+    #  name: Archive
+    #  url: /archives
+    #  weight: 20
     - identifier: blog
       name: Blog
       url: /posts
       weight: 30
-    - identifier: categories
-      name: Categories
-      url: /categories/
+    - identifier: tags
+      name: Tags
+      url: /tags/
       weight: 40
+
+    #- identifier: categories
+    #  name: Categories
+    #  url: /categories/
+    #  weight: 40
     - identifier: search
       name: Search
       url: /search
@@ -69,6 +74,8 @@ params:
     buttons:
       - name: Blog
         url: "/posts"
+      - name: Archive
+        url: "/archives"
       #- name: Search
       #  url: "/search"
       #- name: j3ns.de
