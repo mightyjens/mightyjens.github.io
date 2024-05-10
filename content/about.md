@@ -18,4 +18,4 @@ I have another [blog](https://www.j3ns.de) on which my professional career is on
 
 :email: Feel free to contact me at ***hello[at]bytehero.io***
 
-:office: Have a look at my ***[professional blog](https://www.j3ns.de)***
+:office: Have a look at my other ***[blog](https://www.j3ns.de)***, which deals with my working life
