@@ -50,7 +50,7 @@ markup:
 
 params:
   env: production
-  #ShowRssButtonInSectionTermList: true
+  ShowRssButtonInSectionTermList: true
   ShowFullTextinRSS: true
   comments: true
   ShowBreadCrumbs: true
@@ -71,8 +71,8 @@ params:
         url: "/posts"
       - name: Search
         url: "/search"
-      #- name: Blog
-      #  url: "https://www.j3ns.de"
+      - name: j3ns.de
+        url: "https://www.j3ns.de"
 
   #homeInfoParams:
   #  Title: Welcome
