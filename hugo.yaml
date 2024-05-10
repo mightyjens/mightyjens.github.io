@@ -64,8 +64,8 @@ params:
       So there might be one or the other review or posts about products.
     imageUrl: "../images/10-05-2024_08-48-04.png"
     #imageTitle: "<title of image as alt>" # optional
-    imageWidth: 200 # custom size
-    imageHeight: 200 # custom size
+    imageWidth: 250 # custom size
+    imageHeight: 250 # custom size
     buttons:
       - name: Blog
         url: "/posts"
