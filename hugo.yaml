@@ -74,8 +74,8 @@ params:
     buttons:
       - name: Blog
         url: "/posts"
-      #- name: Archive
-      #  url: "/archives"
+      - name: Archive
+        url: "/archives"
       #- name: Search
       #  url: "/search"
       #- name: j3ns.de
