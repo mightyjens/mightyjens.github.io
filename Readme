@@ -1,1 +1,3 @@
 hugo new posts/2021/heartbeatz/heartbeatz.md
+
+git submodule update --init --recursive
