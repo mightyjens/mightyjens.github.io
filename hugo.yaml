@@ -19,27 +19,18 @@ menu:
       name: About
       url: /about
       weight: 10
-    #- identifier: archive
-    #  name: Archive
-    #  url: /archives
-    #  weight: 20
     - identifier: blog
       name: Blog
       url: /posts
-      weight: 30
+      weight: 20
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 40
-
-    #- identifier: categories
-    #  name: Categories
-    #  url: /categories/
-    #  weight: 40
+      weight: 30
     - identifier: search
       name: Search
       url: /search
-      weight: 50
+      weight: 40
 
 markup:
   goldmark:
@@ -57,6 +48,8 @@ params:
   env: production
   ShowRssButtonInSectionTermList: true
   ShowFullTextinRSS: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
   comments: true
   ShowBreadCrumbs: true
   defaultTheme: dark
@@ -68,27 +61,24 @@ params:
       Here I would like to share a couple of my ideas and findings, but not only technical stuff.
       So there might be one or the other review or posts about products.
     imageUrl: "../images/10-05-2024_08-48-04.png"
-    #imageTitle: "<title of image as alt>" # optional
-    imageWidth: 250 # custom size
-    imageHeight: 250 # custom size
+    imageTitle: "jens and toni the terrier"
+    imageWidth: 250 
+    imageHeight: 250 
     buttons:
       - name: Blog
         url: "/posts"
       - name: Archive
         url: "/archives"
-      #- name: Search
-      #  url: "/search"
-      #- name: j3ns.de
-      #  url: "https://www.j3ns.de"
 
-  #homeInfoParams:
-  #  Title: Welcome
-  #  Content: >
-  #    Hi, my name is Jens, an IT guy and developer... Welcome to my personal blog :)
-
-  #    - I would like to share a couple of my ideas and findings here, but not only technical stuff.
-
-  #    - So there might be one or the other review or posts about products.
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 5
+    keys: ["title", "permalink", "summary", "content"]
 
   socialIcons:
     - name: "twitter"
@@ -97,13 +87,9 @@ params:
       url: "https://www.linkedin.com/in/jensfritzsche"
     - name: "github"
       url: "https://github.com/mightyjens"
-    #- name: "other"
-    #  url: "https://www.j3ns.de"
     - name: "rss"
       url: "https://www.bytehero.io/index.xml"
-  ShowPostNavLinks: true
-  ShowCodeCopyButtons: true
-
+  
   assets:
     favicon: "/assets/favicon.ico"
 
