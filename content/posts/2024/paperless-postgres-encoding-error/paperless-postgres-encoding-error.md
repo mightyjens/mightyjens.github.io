@@ -11,6 +11,10 @@ TocOpen: false
 ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
+editPost:
+    URL: "https://github.com/mightyjens/mightyjens.github.io/tree/main/content"
+    Text: "Suggest Changes" 
+    appendFilePath: true
 ---
 
 Maybe it will help some of you, but I just had an error updating 2.8.0 on my Paperless NGX instance.

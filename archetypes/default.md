@@ -21,6 +21,6 @@ ShowWordCount: false
 UseHugoToc: true
 editPost:
     URL: "https://github.com/mightyjens/mightyjens.github.io/tree/main/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link 
+    Text: "Suggest Changes" 
+    appendFilePath: true  
 ---

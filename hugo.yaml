@@ -64,13 +64,13 @@ params:
       So there might be one or the other review or posts about products.
     imageUrl: "../images/10-05-2024_08-48-04.png"
     #imageTitle: "<title of image as alt>" # optional
-    imageWidth: 180 # custom size
-    imageHeight: 180 # custom size
+    imageWidth: 200 # custom size
+    imageHeight: 200 # custom size
     buttons:
       - name: Blog
         url: "/posts"
-      - name: Search
-        url: "/search"
+      #- name: Search
+      #  url: "/search"
       - name: j3ns.de
         url: "https://www.j3ns.de"
 
