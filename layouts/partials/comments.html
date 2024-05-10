@@ -1,66 +1,50 @@
-<div class="giscus">
-
+{{- /* Comments area start */ -}}
+{{- /* to add comments read => https://gohugo.io/content-management/comments/ */ -}}
+<div class="comments">
     <script>
-        function getGiscusTheme() {
-            let theme;
+        const getStoredTheme = () => localStorage.getItem("pref-theme") === "dark" ? "https://www.bytehero.io/css/dark_dimmed_bytehero.css" : "light";
 
-            if (window.matchMedia && (localStorage.getItem("theme") === null)) {
-                // Check if the dark-mode Media-Query matches
-                console.log("inside 1");
-                if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-                    theme = "https://www.bytehero.io/css/dark_dimmed_bytehero.css";
-                } else {
-                    theme = "light";
-                }
-            } else {
-                theme = localStorage.getItem("theme");
-            }
-            return theme === "https://www.bytehero.io/css/dark_dimmed_bytehero.css" ? "https://www.bytehero.io/css/dark_dimmed_bytehero.css" : "light";
-        }
-
-        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            //alert("asdasd");
-        }
-
-        function setGiscusTheme() {
-            function sendMessage(message) {
+        const setGiscusTheme = () => {
+            const sendMessage = (message) => {
                 const iframe = document.querySelector('iframe.giscus-frame');
-                if (!iframe) return;
-                iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+                if (iframe) {
+                    iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+                }
             }
-            sendMessage({
-                setConfig: {
-                    theme: getGiscusTheme() == "https://www.bytehero.io/css/dark_dimmed_bytehero.css" ? "light" : "https://www.bytehero.io/css/dark_dimmed_bytehero.css",
-                },
-            });
+            sendMessage({ setConfig: { theme: getStoredTheme() } })
         }
 
-        const attrs = {
-            "src": "https://giscus.app/client.js",
-            "data-repo": "mightyjens/mightyjens.github.io",
-            "data-repo-id": "R_kgDOL4sLyw",
-            "data-category": "General",
-            "data-category-id": "DIC_kwDOL4sLy84CfOcb",
-            "data-mapping": "pathname",
-            "data-strict": "0",
-            "data-reactions-enabled": "0",
-            "data-emit-metadata": "0",
-            "data-input-position": "bottom",
-            "data-theme": getGiscusTheme(),
-            "data-lang": "en",
-            "crossorigin": "anonymous",
-            "async": "1"
-        };
+        document.addEventListener("DOMContentLoaded", () => {
+            const giscusAttributes = {
+                "src": "https://giscus.app/client.js",
+                "data-repo": "mightyjens/mightyjens.github.io",
+                "data-repo-id": "R_kgDOL4sLyw",
+                "data-category": "General",
+                "data-category-id": "DIC_kwDOL4sLy84CfOcb",
+                "data-mapping": "pathname",
+                "data-strict": "0",
+                "data-reactions-enabled": "0",
+                "data-emit-metadata": "0",
+                "data-input-position": "bottom",
+                "data-theme": getStoredTheme(),
+                "data-lang": "en",
+                "crossorigin": "anonymous",
+                "async": "1"
+            };
 
-        const giscusScript = document.createElement("script");
-        Object.entries(attrs).forEach(([key, value]) => giscusScript.setAttribute(key, value));
-        document.body.appendChild(giscusScript);
+            // Dynamically create script tag.
+            const giscusScript = document.createElement("script");
+            Object.entries(giscusAttributes).forEach(
+                ([key, value]) => giscusScript.setAttribute(key, value));
+            console.log(giscusScript)
+            document.querySelector(".comments").appendChild(giscusScript);
 
-        const toggle = document.querySelector('#theme-toggle');
-        if (toggle) {
-            toggle.addEventListener('click', setGiscusTheme);
-        }
+            // Update giscus theme when the theme switcher is clicked.
+            const themeSwitcher = document.querySelector("#theme-toggle");
+            if (themeSwitcher) {
+                themeSwitcher.addEventListener("click", setGiscusTheme);
+            }
+        });
     </script>
-
-    <noscript>Please enable JavaScript to view the comments</noscript>
 </div>
+{{- /* Comments area end */ -}}
