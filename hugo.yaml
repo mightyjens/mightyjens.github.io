@@ -89,11 +89,11 @@ params:
     - name: "linkedin"
       url: "https://www.linkedin.com/in/jensfritzsche"
     - name: "github"
-      url: "https://https://github.com/mightyjens"
-    - name: "other"
-      url: "https://www.j3ns.de"
-    - name: "rss"
-      url: "https://www.bytehero.io/index.xml"
+      url: "https://github.com/mightyjens"
+    #- name: "other"
+    #  url: "https://www.j3ns.de"
+    #- name: "rss"
+    #  url: "https://www.bytehero.io/index.xml"
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
 
