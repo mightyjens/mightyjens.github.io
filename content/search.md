@@ -1,8 +1,7 @@
 ---
-title: "Search" # in any language you want
-layout: "search" # necessary for search
-# url: "/archive"
-# description: "Description for Search"
+title: "Search"
+layout: "search"
+description: "If you're looking for something special, feel free to use the search-form."
 summary: "search"
 placeholder: "Type here to search..."
 ---
