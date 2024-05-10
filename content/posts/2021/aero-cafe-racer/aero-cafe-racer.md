@@ -3,8 +3,8 @@ title: 'Aero Leather – Cafe Racer jacket'
 date: 2021-03-01T14:58:50+02:00
 draft: false
 author: ["mightyjens"]
-categories: ["general"]
-tags: [""]
+categories: ["reviews"]
+tags: ["Products","Reviews"]
 series: [""]
 categories_weight: 10
 comments: true
