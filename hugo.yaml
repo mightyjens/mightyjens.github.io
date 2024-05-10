@@ -22,18 +22,18 @@ menu:
     - identifier: archive
       name: Archive
       url: /archives
-      weight: 20 
+      weight: 20
+    - identifier: blog
+      name: Blog
+      url: /posts
+      weight: 30
     - identifier: categories
       name: Categories
       url: /categories/
-      weight: 30
+      weight: 40
     - identifier: search
       name: Search
       url: /search
-      weight: 40
-    - identifier: blog
-      name: Blog
-      url: https://www.j3ns.de
       weight: 50
 
 markup:
@@ -55,14 +55,33 @@ params:
   comments: true
   ShowBreadCrumbs: true
   defaultTheme: dark
-  homeInfoParams:
-    Title: <i class="fa-brands fa-codepen"></i>&nbsp;Welcome
-    Content: >
-      Hi, my name is Jens, an IT guy and developer... Welcome to my personal blog :) 
+  profileMode:
+    enabled: true
+    title: "Welcome"
+    subtitle:
+      Hi, my name is Jens, an IT guy and developer... Welcome to my personal blog :)
+      Here I would like to share a couple of my ideas and findings, but not only technical stuff.
+      So there might be one or the other review or posts about products.
+    imageUrl: "../images/10-05-2024_08-48-04.png"
+    #imageTitle: "<title of image as alt>" # optional
+    imageWidth: 180 # custom size
+    imageHeight: 180 # custom size
+    buttons:
+      - name: Blog
+        url: "/posts"
+      - name: Search
+        url: "/search"
+      #- name: Blog
+      #  url: "https://www.j3ns.de"
 
-      - I would like to share a couple of my ideas and findings here, but not only technical stuff.
+  #homeInfoParams:
+  #  Title: Welcome
+  #  Content: >
+  #    Hi, my name is Jens, an IT guy and developer... Welcome to my personal blog :)
 
-      - So there might be one or the other review or posts about products.
+  #    - I would like to share a couple of my ideas and findings here, but not only technical stuff.
+
+  #    - So there might be one or the other review or posts about products.
 
   socialIcons:
     - name: "twitter"
