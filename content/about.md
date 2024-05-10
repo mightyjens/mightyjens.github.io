@@ -1,6 +1,5 @@
 ---
 title: 'About'
-date: 2024-05-08T11:17:02+02:00
 ShowBreadCrumbs: false
 comments: false
 ---
