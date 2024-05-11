@@ -67,6 +67,10 @@ The retractable seatpost is one of the things I don't like at all. I could opera
 
 TwinLoc is a lever developed by Scott that is mounted on the handlebars and controls three suspension travel settings as well as the fork lockout. I like to set the Twinloc to lockout, especially on steep ramps and longer rides on asphalt.
 
+
+> **Caution**: Be extremely careful when working on the Twinloc and adhere exactly to the manufacturer's torque specifications. The threads are made of aluminum and are extremely delicate. A little too much force and you have destroyed the screw thread. 
+
+
 There's actually three settings:
 |<div style="width:345px">Mode</div>|<div style="width:345px">Function</div>|
 |---------------------------|---|
@@ -77,6 +81,8 @@ There's actually three settings:
 What i like about the 2023 Twinloc is, that the dropper post trigger is integrated as well:
 
 ![Scott Twinloc](../scott-strike-eride/IMG_7246.JPEG)
+
+
 
 ## Driving
 
