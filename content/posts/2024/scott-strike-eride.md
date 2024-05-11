@@ -25,7 +25,7 @@ cover:
 
 At the beginning of 2023, I decided to buy a new e-bike. My old *Canyon Neuron:ON* was to remain at my parents home as a second bike. My requirements for the bike were relatively simple. A trail bike with an upright, relaxed riding position, modern geometry and enough potential to be able to take on the occasional rough trail. In terms of equipment, it should therefore have decent components, without claiming to be a performance bike or for posing at the ice cream parlor :smile: 
 
-After some research, I ended up buying the *Scott Strike ERide 930* with its 625 Wh battery and *Bosch Performance CX* drive. Actually this bike shares the same frame with the Scott Genius, but with a more upright riding position and 140mm instead of 150mm travel. If you get bored of the bike at some point, there should be enough potential in the frame to make a significant upgrade. Whether this makes sense (financially) is another matter. 
+After some research, I ended up buying the *Scott Strike ERide 930* with its 625 Wh battery and *Bosch Performance CX* drive. Actually this bike shares the same frame with the *Scott Genius*, but with a more upright riding position and 140mm instead of 150mm travel. If you get bored of the bike at some point, there should be enough potential in the frame to make a significant upgrade. Whether this makes (financially) sense is another matter. 
 
 Last but not least I find the look of the bike very appealing. I think Scott has integrated the Bosch motor very harmoniously into the frame and the flip-flop paintwork is a real hit. 
 
@@ -61,9 +61,9 @@ The shock is an *X-Fusion Nude*, which is also said not to be the top performer,
 
 ### Brakes
 
-The bike is delivered ex works with the *SRAM DB8* brake. You can read quite a few mixed reviews of this brake online, which I can personally confirm. I didn't really have much fun with the brakes at the beginning, the reason being the discs were far too thin. Moderate braking power combined with a hefty noise level really annoyed me. 
+The bike is delivered ex works with the *SRAM DB8* brake. You can read quite a few mixed reviews of this brake online, which I can personally confirm. I didn't really have much fun with the brakes at the beginning, the reason being the discs were far too thin. Moderate braking power combined with annoying grinding noises has really upset me. 
 
-My later conversion to *Shimano SM-RT800 ICE TEC* 203mm front and rear discs provided a remedy. In combination with *AVID CODE pads from SRAM*, the brakes are unrecognizable. This upgrade is an absolute recommendation.
+My conversion to *Shimano SM-RT800 ICE TEC* 203mm front and rear discs provided a remedy. In combination with *AVID CODE pads from SRAM*, the brakes are unrecognizable. This upgrade is an absolute recommendation.
 
 A big advantage for forest and meadow riders like me is certainly the use of mineral oil, which significantly extends the maintenance intervals. 
 
