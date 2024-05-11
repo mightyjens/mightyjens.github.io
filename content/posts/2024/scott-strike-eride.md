@@ -35,7 +35,7 @@ Last but not least I find the look of the bike very appealing. I think Scott has
 - Marzocchi Z2 Air 140mm air suspension fork
 - X-Fusion Nude, 140mm, TwinLoc
 - Wide gear range with Sram NX Eagle 12-speed
-- Powerful Bosch Performance Line CX motor 4.Gen with 75 Nm torque
+- Powerful Bosch Performance Line CX motor 4.Gen with 85 Nm torque
 - SRAM DB8 4-piston hydraulic disc brake for maximum braking performance
 - Fast rolling Maxxis Rekon tires
 - Pre-assembled cables for front and rear light in the frame
