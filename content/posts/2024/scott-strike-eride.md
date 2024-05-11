@@ -44,9 +44,9 @@ Last but not least I find the look of the bike very appealing. I think Scott has
 
 ### Suspension
 
-I don't think you need to say much about the *Marzocchi Z2 Air*, a rock-solid, robust and relatively sensitive fork without a lot of adjustment options. I simply adjusted the fork exactly according to the manufacturer's instructions, which is completely sufficient for me.
+I don't think you need to say much about the *Marzocchi Z2 Air*, a rock-solid, robust and relatively sensitive fork without a lot of adjustment options. I simply adjusted the fork exactly according to the manufacturer's instructions, which is completely sufficient for me. As Marzocchi is now part of Fox, half of the parts used probably come from the Fox warehouse or at least from Fox suppliers. If you search the internet for a fork with the best price/performance ratio for a trail bike, 90% of the time you will be recommended the Z2.
 
-The shock is an *X-Fusion Nude*, which is also said to lack top performance, but is very robust with sufficient power. I actually had to experiment a little with the pressure of the shock until I reached a comfortable damping behavior for me.
+The shock is an *X-Fusion Nude*, which is also said not to be the top performer, but is very robust with sufficient performance. I don't know if the anecdote is true, but one reads again and again that the founders of X-Fusion were annoyed by the many plastic parts other manufacturers use and therefore try to use as much metal as possible in their own products. I actually had to experiment a little with the pressure of the shock until I reached a comfortable damping behavior for me. 
 
 ### Brakes
 
