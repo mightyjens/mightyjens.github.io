@@ -65,15 +65,12 @@ A big advantage for forest and meadow riders like me is certainly the use of min
 
 ### Dropper Post
 
-The retractable seatpost is one of the things I don't like at all. I could operate the seatpost on my old *Canyon Neuron* in absolutely every situation and it retracted and extended without any problems. However, the *Syncros Duncan dropper* on the *Scott Strike* has to be completely released before retracting, otherwise it just hangs.
+The retractable seatpost is one of the things I don't like at all. I could operate the seatpost on my old *Canyon Neuron* in absolutely every situation and it retracted and extended without any problems. However, the *Syncros Duncan dropper* must be completely relieved of pressure before retracting, otherwise it just hangs in the top postition. One of the parts I might upgrade in the future.
 
 ### Twinloc
 
-TwinLoc is a lever developed by Scott that is mounted on the handlebars and controls three suspension travel settings as well as the fork lockout. I like to set the Twinloc to lockout, especially on steep ramps and longer rides on asphalt.
+The so called *TwinLoc* is a lever developed by Scott that is mounted on the handlebars and controls three suspension travel settings as well as the fork lockout. Personally, I use to drive fully open no matter what's the underground, but occasionally set the Twinloc to lockout on steep ramps and longer rides on asphalt. For me... it's just a nice to have...
 
-> **Caution**: Be extremely careful when working on the Twinloc and adhere exactly to the manufacturer's torque specifications. The threads are made of aluminum and are extremely delicate. A little too much force and you have destroyed the screw thread. 
-
-There's actually three settings:
 |<div style="width:345px">Mode</div>|<div style="width:345px">Function</div>|
 |---------------------------|---|
 |Descent|Suspension is fully open |
@@ -83,6 +80,8 @@ There's actually three settings:
 What i like about the 2023 Twinloc is, that the dropper post trigger is integrated as well:
 
 ![Scott Twinloc](../scott-strike-eride/IMG_7246.JPEG)
+
+> **Caution**: Be extremely careful when working on the *Twinloc* and adhere exactly to the manufacturer's torque specifications. The threads are made of aluminum and are extremely delicate. A little too much force and you have destroyed the screw thread. 
 
 ## Driving
 
