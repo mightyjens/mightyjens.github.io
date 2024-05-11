@@ -99,4 +99,4 @@ The battery is absolutely sufficient for my tours (30-50km with 500-1500hm) and 
 
 ## Verdict
 
-I can't really say too much about this, it's a rock-solid bike with decent components and an optimal riding position for me. Of course, you can get more bang for your buck from other suppliers, especially mail order companies. But in this case, it was important to me to buy the bike from a local dealer where I could rely on maintenance and support after the purchase. I've had too many negative experiences with workshops that didn't want to service mail-order bikes.
+It's a rock-solid bike with decent components and an optimal riding position for me. Of course, you can get more bang for your buck from other suppliers, especially mail order companies. But in this case, it was important to me to buy the bike from a local dealer where I could rely on maintenance and support after the purchase. I've had too many negative experiences with workshops that didn't want to service mail-order bikes.
