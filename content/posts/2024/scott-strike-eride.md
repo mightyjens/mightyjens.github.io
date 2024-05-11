@@ -29,7 +29,7 @@ After some research, I ended up buying the *Scott Strike ERide 930* with its 625
 
 Last but not least I find the look of the bike very appealing. I think Scott has integrated the Bosch motor very harmoniously into the frame and the flip-flop paintwork is a real hit. 
 
-![Scott Twinloc](../scott-strike-eride/IMG_6199.JPEG)
+![Scott Strike ERide 930](../scott-strike-eride/IMG_6199.JPEG)
 
 ### Components
 
@@ -50,6 +50,9 @@ I don't think you need to say much about the *Marzocchi Z2 Air*, a rock-solid, r
 
 The shock is an *X-Fusion Nude*, which is also said not to be the top performer, but is very robust with sufficient performance. I don't know if the anecdote is true, but one reads again and again that the founders of X-Fusion were annoyed by the many plastic parts other manufacturers use and therefore try to use as much metal as possible in their own products. I actually had to experiment a little with the pressure of the shock until I reached a comfortable damping behavior for me. 
 
+
+![X-Fusion Nude](../scott-strike-eride/IMG_7249.JPEG)
+
 ### Brakes
 
 The bike is delivered ex works with the *SRAM DB8* brake. You can read quite a few mixed reviews of this brake online, which I can personally confirm. I didn't really have much fun with the brakes at the beginning, the reason being the discs were far too thin. Moderate braking power combined with a hefty noise level really annoyed me. 
@@ -58,7 +61,9 @@ My later conversion to *Shimano SM-RT800 ICE TEC* 203mm front and rear discs pro
 
 A big advantage for forest and meadow riders like me is certainly the use of mineral oil, which significantly extends the maintenance intervals. 
 
-![Scott Twinloc](../scott-strike-eride/IMG_7247.JPEG)
+![SRAM DB8](../scott-strike-eride/IMG_7247.JPEG)
+
+![SRAM DB8 Levers](../scott-strike-eride/IMG_7248.JPEG)
 
 ### Dropper Post
 
