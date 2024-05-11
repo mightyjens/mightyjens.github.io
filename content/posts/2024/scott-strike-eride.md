@@ -16,9 +16,9 @@ ShowPostNavLinks: true
 ShowWordCount: false
 UseHugoToc: true
 cover:
-  image: posts/2024/scott-strike-eride/IMG_6199.JPEG
+  image: posts/2024/scott-strike-eride/Bike_Wallpaper.JPEG
   caption: ""
-  hiddenInList: true
+  hiddenInList: false
 ---
 
 ## The Bike
@@ -28,6 +28,8 @@ At the beginning of 2023, I decided to buy a new e-bike. My old *Canyon Neuron:O
 After some research, I ended up buying the *Scott Strike ERide 930* with its 625 Wh battery and *Bosch Performance CX* drive. Actually this bike shares the same frame with the Scott Genius, but with a more upright riding position and 140mm instead of 150mm travel. If you get bored of the bike at some point, there should be enough potential in the frame to make a significant upgrade. Whether this makes sense (financially) is another matter. 
 
 Last but not least I find the look of the bike very appealing. I think Scott has integrated the Bosch motor very harmoniously into the frame and the flip-flop paintwork is a real hit. 
+
+![Scott Twinloc](../scott-strike-eride/IMG_6199.JPEG)
 
 ### Components
 
