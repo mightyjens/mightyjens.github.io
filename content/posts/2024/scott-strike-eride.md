@@ -23,7 +23,7 @@ cover:
 
 ## The Bike
 
-At the beginning of 2023, I decided to buy a new e-bike. My old *Canyon Neuron:ON* was to remain at my parents home as a second bike. My requirements for the bike were relatively simple. A trail bike with an upright, relaxed riding position and enough potential to be able to take on the occasional rough trail. In terms of equipment, it should therefore have decent components, without claiming to be a performance bike or for posing at the ice cream parlor :smile: 
+At the beginning of 2023, I decided to buy a new e-bike. My old *Canyon Neuron:ON* was to remain at my parents home as a second bike. My requirements for the bike were relatively simple. A trail bike with an upright, relaxed riding position, modern geometry and enough potential to be able to take on the occasional rough trail. In terms of equipment, it should therefore have decent components, without claiming to be a performance bike or for posing at the ice cream parlor :smile: 
 
 After some research, I ended up buying the *Scott Strike ERide 930* with its 625 Wh battery and *Bosch Performance CX* drive. Actually this bike shares the same frame with the Scott Genius, but with a more upright riding position and 140mm instead of 150mm travel. If you get bored of the bike at some point, there should be enough potential in the frame to make a significant upgrade. Whether this makes sense (financially) is another matter. 
 
@@ -42,6 +42,14 @@ Last but not least I find the look of the bike very appealing. I think Scott has
 - Fast rolling Maxxis Rekon tires
 - Pre-assembled cables for front and rear light in the frame
 - Speed: Up to 25 km/h
+
+The upright driving position is achieved using spacers:
+
+![Scott Strike ERide 930 spacers](../scott-strike-eride/IMG_7251.JPEG)
+
+The charging port is water-protected:
+
+![Scott Strike ERide 930 charging port](../scott-strike-eride/IMG_7250.JPEG)
 
 ### Suspension
 
