@@ -1,5 +1,5 @@
 ---
-title: 'Scott Strike Eride 930'
+title: 'Review: Scott Strike Eride 930 E-Mountainbike'
 date: 2024-05-08T20:41:45+02:00
 draft: false
 author: ["mightyjens"]
