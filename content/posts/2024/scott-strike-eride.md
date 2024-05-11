@@ -88,7 +88,7 @@ What i like about the 2023 Twinloc is, that the dropper post trigger is integrat
 
 After adapting a few components to my requirements, the bike is now really great. New grips, Fidlock mount, Crankbrothers flat pedals and the brake upgrades. Especially on longer tours, I have far fewer problems with my back than with “sportier” bikes thanks to the upright riding position. Nevertheless, you come down every trail with a grin on your face. All from the perspective of an absolutely mediocre rider, of course :smile:
 
-The battery is absolutely sufficient for my tours (30-50km with 500- 1500hm) and has always been enough. However, it must also be said that I usually ride in ECO and trail mode.
+The battery is absolutely sufficient for my tours (30-50km with 500- 1500hm) and has always been enough. However, it must also be said that I usually ride in Eco and Trail mode.
 
 ## Verdict
 
