@@ -28,6 +28,7 @@ But I always find it difficult to learn things according to instructions or lite
 
 So, here is my approach to learning a little bit of python. Feel free to comment on it as I am absolutely sure it‘s far away from being optimal 🙂
 
+> You can find the complete Python REST API-Template on my [GitHub Page](https://github.com/mightyjens/python-flask-rest-api).
 
 ## The Problem
 In the course of my work and the evolution of Business Central, especially in the cloud, microservices, among other technologies, are becoming increasingly important… i.e. the encapsulation of specific (or unsolvable in AL) tasks into APIs, which can then be consumed via REST calls. I have already written a couple of productively used microservices for our Addons based on Azure Functions in C# as well as Node.JS. However, the elegance and readability of Python has always appealed to me.
