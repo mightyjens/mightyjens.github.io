@@ -2,7 +2,21 @@
 {{- /* to add comments read => https://gohugo.io/content-management/comments/ */ -}}
 <div class="comments">
     <script>
-        const getStoredTheme = () => localStorage.getItem("pref-theme") === "dark" ? "https://www.bytehero.io/css/dark_dimmed_bytehero.css" : "light";
+
+        //const getStoredTheme = () => localStorage.getItem("pref-theme") === "dark" ? "https://www.bytehero.io/css/dark_dimmed_bytehero.css" : "light";
+        const getStoredTheme = () => {
+            // Retrieve the value stored in the browser's localStorage under the key "pref-theme"
+            const storedTheme = localStorage.getItem("pref-theme");
+
+            // Check if the stored theme is "dark"
+            if ((storedTheme === "dark") || (storedTheme === null)) {
+                // If the stored theme is "dark", return the URL for the dark-themed CSS file
+                return "https://www.bytehero.io/css/dark_dimmed_bytehero.css";
+            } else {
+                // If the stored theme is not "dark", return "light"
+                return "https://www.bytehero.io/css/light_bytehero.css";
+            }
+        };
 
         const setGiscusTheme = () => {
             const sendMessage = (message) => {
