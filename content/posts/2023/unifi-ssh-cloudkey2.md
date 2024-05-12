@@ -22,6 +22,6 @@ Setup the SSH password in the CloudKey:
 
 ![Thule EasyFold XT 2](../unifi-ssh-cloudkey2/image-1024x357.webp)
 
-Now you could use the username root and the password you just setup to SSH into your CloudKey:
+Now you could use the username ***root*** and the password you just setup to SSH into your CloudKey:
 
 ![Thule EasyFold XT 2](../unifi-ssh-cloudkey2/image-1.webp)
