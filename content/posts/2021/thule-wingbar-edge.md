@@ -20,11 +20,11 @@ cover:
   caption: ""
   hiddenInList: false
 ---
-Just as I have written a review on the Thule EasyFold XT2 this spring, I would like to write a compact check-up, suitable for the start of the winter season, about the Thule Wingbar Edge 9582 (B) black edition that I purchased for little below three hundred Euros.
+Just as I have written a review on the *[Thule EasyFold XT2](/posts/2021/thule-easyfold-xt2/)* this spring, I would like to write a compact check-up, suitable for the start of the winter season, about the *Thule Wingbar Edge 9582* (B) black edition that I purchased for little below three hundred Euros.
 
 Even though the aesthetics of such setups are usually not the focus, i still usually make sure it fits the car. Therefore, the Wingbar was the only suitable roof rack for me because it almost looks like a series design part.
 
-As I am driving a 2021 Volkswagen T-Roc, the front as well as the rear mount are in size M!
+As I am driving a 2021 *Volkswagen T-Roc*, the front as well as the rear mount are in size M!
 Please be careful to choose the right size suitable for your car as there’s several combinations available.
 
 ## Technical Details
@@ -38,17 +38,17 @@ Please be careful to choose the right size suitable for your car as there’s se
 |One-Key System compatible	| ✓ |
 |Modelno.	|958220|
 
-I took this information from the Thule homepage for size M!
+I took this information from the *[Thule](/tags/thule/)* homepage for size M!
 
 ## Unboxing
 
-Out of the box the Thule Wingbar Edge 9582 comes in several pieces: two main bars with fitted footplates at each end, a rubber strip that needs to be cut with scissors to the appropriate length for your car (the rubber strip sits in a groove on top of the bars to provide a non-slip surface for anything on the roof), four rubberized caps that fit on top of the footplates. Additionally, there’s four locking cylinders and four very heavy-duty rubber straps to secure the bars to the rails, and finally a tool to tighten them. There is a short but understandable manual included.
+Out of the box the *Thule Wingbar Edge 9582* comes in several pieces: two main bars with fitted footplates at each end, a rubber strip that needs to be cut with scissors to the appropriate length for your car (the rubber strip sits in a groove on top of the bars to provide a non-slip surface for anything on the roof), four rubberized caps that fit on top of the footplates. Additionally, there’s four locking cylinders and four very heavy-duty rubber straps to secure the bars to the rails, and finally a tool to tighten them. There is a short but understandable manual included.
 
 ## Getting Ready
 
 Mounting the beams is very simple. Basically, you just put them on your railing and hook the rubber bands in the appropriate place. Then you pull the band around the railing and hook it on the top of the Wingbar. Using a special torque-sensitive tool, you then tighten the bands. The tool clicks when the right torque of 2nm is reached.
 
-In any case, you have to make sure that there is still enough space between the roof rack and the car roof. The bars sit really close. Depending on the box or accessories you want to fit this might even be a little bit too close. My plan is to use the rack with the Thule Pacific 600 or alternatively with the Thule SnowPack.
+In any case, you have to make sure that there is still enough space between the roof rack and the car roof. The bars sit really close. Depending on the box or accessories you want to fit this might even be a little bit too close. My plan is to use the rack with the *Thule Pacific 600* or alternatively with the *[Thule SnowPack](/posts/2022/thule-snowpack/)*.
 
 ![Thule Wingbar Edge](../thule-wingbar-edge/IMG_4057-1024x768.jpeg.webp)
 

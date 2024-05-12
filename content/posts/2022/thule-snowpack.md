@@ -21,7 +21,7 @@ cover:
   hiddenInList: false
 ---
 
-Contrary to my planning to buy a full-size roof box, I have now decided for the Thule SnowPack in size M for this year’s skiing season. In this short review I would like to show this in combination with the Thule Wingbar roof racks. Since we regularly go skiing with multiple people, I decided to get a carrier that can carry up to four pairs of skis.
+Contrary to my planning to buy a full-size roof box, I have now decided for the *[Thule](/tags/thule/) SnowPack* in size M for this year’s skiing season. In this short review I would like to show this in combination with the *[Thule Wingbar](/posts/2021/thule-wingbar-edge/)* roof racks. Since we regularly go skiing with multiple people, I decided to get a carrier that can carry up to four pairs of skis.
 
 ## Features
 
@@ -50,7 +50,7 @@ Information taken from Thule.com
 
 ## Unboxing
 
-The package does not contain any big surprises. There are the two ski mounts included, adapter plates to increase the distance to the roof, appropriately sized retaining screws and a Thule typical manual. As usual the keys could be replaced by the Thule One-Key system.
+The package does not contain any big surprises. There are the two ski mounts included, adapter plates to increase the distance to the roof, appropriately sized retaining screws and a Thule typical manual. As usual the keys could be replaced by the *Thule One-Key system*.
 
 ![Thule Snowpack](../thule-snowpack/thule-snowpack.webp)
 
@@ -66,7 +66,7 @@ Similar to other ski racks I’ve owned, the reality here lags behind the manufa
 
 ## Verdict
 
-Unlike the carriers I used on my old A-Class, I find the Thule SnowPack carriers to be very high quality. Both the attachment and the mounting of skis work flawlessly. Of course, however, the driving noise is much more noticeable than, for example, with an aerodynamic roof box. All in all, though, I’ll be replacing the ski racks with a full-size roof box later this year.
+Unlike the carriers I used on my old Mercedes A-Class, I find the *Thule SnowPack* carriers to be very high quality. Both the attachment and the mounting of skis work flawlessly. Of course, however, the driving noise is much more noticeable than, for example, with an aerodynamic roof box. All in all, though, I’ll be replacing the ski racks with a full-size roof box later this year.
 
 |<div style="width:345px">Pro</div>	|<div style="width:345px">Contra</div>|
 |---|---|
