@@ -23,7 +23,7 @@ When trying to migrate the changes, the following error occured:
 > Conversion between UTF8 and SQL_ASCII is not supported
 
 In fact, my Postgres database was set to SQL_ASCII instead of UTF-8, so it helped to rebuild the database. 
-Make sure to backup/snapshot everything in case something goes wrong, I managed to kill my instance a couple of times while fiddling around with this :smile:
+Make sure to backup/snapshot everything in case something goes wrong, I managed to kill my instance while fiddling around with this :smile:
 
 1. Stop paperless services:
 
@@ -48,9 +48,12 @@ psql -f paperless.sql -d paperlessdb_new
 ALTER DATABASE paperlessdb RENAME TO paperlessdb_old;
 ALTER DATABASE paperlessdb_new RENAME TO paperlessdb;
 
+-- Don't forget the permissions
 ALTER DATABASE paperlessdb OWNER TO paperless;
 ```
+
 4. Now we can restart our services and continue updating:
+
 ```  shell
 systemctl start paperless-consumer paperless-webserver paperless-scheduler
 ```
