@@ -51,6 +51,10 @@ psql -f paperless.sql -d paperlessdb_new
 3. Rename the old database and replace it with the new one:
 
 ``` sql
+-- Switch to postgres interactive terminal 
+psql
+
+-- Rename the databases
 ALTER DATABASE paperlessdb RENAME TO paperlessdb_old;
 ALTER DATABASE paperlessdb_new RENAME TO paperlessdb;
 
