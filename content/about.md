@@ -17,6 +17,5 @@ I have another ***[blog](https://www.j3ns.de)*** on which my professional career
 
 ## Contact 
 
-:email: Feel free to contact me at ***hello[at]bytehero.io***
-
-:office: Have a look at my other ***[blog](https://www.j3ns.de)***, which deals with my working life
+- Feel free to contact me at ***hello[at]bytehero.io***
+- Have a look at my other ***[blog](https://www.j3ns.de)***, which deals with my working life

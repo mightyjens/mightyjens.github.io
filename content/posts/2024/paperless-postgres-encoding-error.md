@@ -40,7 +40,7 @@ createdb -E utf8 paperlessdb_new
 psql -f paperless.sql -d paperlessdb_new
 ```
 
-You might need to create a new database template according to this accepted solution on <a href="https://stackoverflow.com/questions/16736891/pgerror-error-new-encoding-utf8-is-incompatible" target="_blank">stack overflow</a> if you face the error "Use the same encoding as in the template database, or use template0 as template".
+(!) You might need to create a new database template according to this accepted solution on <a href="https://stackoverflow.com/questions/16736891/pgerror-error-new-encoding-utf8-is-incompatible" target="_blank">stack overflow</a> if you face the error *"Use the same encoding as in the template database, or use template0 as template"*.
 
 3. Rename the old database and replace it with the new one…
 
