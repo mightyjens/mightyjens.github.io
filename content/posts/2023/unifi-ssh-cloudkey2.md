@@ -2,7 +2,7 @@
 title: 'SSH into your Unifi CloudKey Gen2'
 date: 2023-06-19T09:43:30+02:00
 draft: false
-author: ["mightyjens"]
+#author: ["mightyjens"]
 categories: ["unifi"]
 tags: ["Unifi","IT"]
 series: [""]

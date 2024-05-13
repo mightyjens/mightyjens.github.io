@@ -1,7 +1,7 @@
 ---
 title: 'Paperless NGX: Conversion between UTF8 and SQL_ASCII is not supported'
 date: 2024-05-08T11:17:02+02:00
-author: ["mightyjens"]
+#author: ["mightyjens"]
 categories: ["paperless"]
 tags: ["Open Source","Selfhosted","Paperless"]
 categories_weight: 20
@@ -17,7 +17,7 @@ editPost:
     appendFilePath: true
 ---
 
-Maybe it will help some of you, but I just had an error updating 2.8.0 on my Paperless NGX instance.
+Maybe it will help some of you, but I just had an error updating 2.8.0 on my bare metal Paperless NGX instance.
 When trying to migrate the changes, the following error occured:
 
 > Conversion between UTF8 and SQL_ASCII is not supported

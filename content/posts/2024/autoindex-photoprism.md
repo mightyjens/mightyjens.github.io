@@ -1,7 +1,7 @@
 ---
 title: 'Automating Photoprism Indexing'
 date: 2024-04-08T12:33:51+02:00
-author: ["mightyjens"]
+#author: ["mightyjens"]
 categories: ["linux"]
 tags: ["Open Source","Selfhosted"]
 categories_weight: 10
