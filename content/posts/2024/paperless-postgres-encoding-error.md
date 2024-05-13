@@ -22,7 +22,7 @@ When trying to migrate the changes, the following error occured:
 
 > Conversion between UTF8 and SQL_ASCII is not supported
 
-In fact, my Postgres database was set to SQL_ASCII instead of UTF-8. For me it helped to rebuild the database. 
+In fact, my Postgres database was set to SQL_ASCII instead of UTF-8, so it helped to rebuild the database. 
 Make sure to backup/snapshot everything in case something goes wrong, I managed to kill my instance a couple of times while fiddling around with this :smile:
 
 1. Stop paperless services:
