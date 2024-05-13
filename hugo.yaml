@@ -1,7 +1,7 @@
 baseURL: https://www.bytehero.io
 languageCode: en-us
 title: bytehero.io
-theme: PaperMod
+theme: ["hugo-redirect", "PaperMod"]
 
 enableRobotsTXT: true
 enableEmoji: true
@@ -62,8 +62,8 @@ params:
       So there might be one or the other review or posts about products.
     imageUrl: "../images/10-05-2024_08-48-04.png"
     imageTitle: "jens and toni the terrier"
-    imageWidth: 250 
-    imageHeight: 250 
+    imageWidth: 250
+    imageHeight: 250
     buttons:
       - name: Blog
         url: "/posts"
@@ -89,7 +89,7 @@ params:
       url: "https://github.com/mightyjens"
     - name: "rss"
       url: "https://www.bytehero.io/index.xml"
-  
+
   assets:
     favicon: "/assets/favicon.ico"
 
