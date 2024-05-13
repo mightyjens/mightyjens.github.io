@@ -22,7 +22,8 @@ When trying to migrate the changes, the following error occured:
 
 > Conversion between UTF8 and SQL_ASCII is not supported
 
-In fact, my Postgres database was set to SQL_ASCII instead of UTF-8. For me it helped to rebuild the database. Make sure to backup/snapshot everything in case something goes wrong:
+In fact, my Postgres database was set to SQL_ASCII instead of UTF-8. For me it helped to rebuild the database. 
+Make sure to backup/snapshot everything in case something goes wrong:
 
 1. Stop paperless services:
 
@@ -30,6 +31,7 @@ In fact, my Postgres database was set to SQL_ASCII instead of UTF-8. For me it h
 systemctl stop paperless-consumer paperless-webserver paperless-scheduler
 ```
 2. Create an encoded dump of your existing data and push it into a newly created, UTF-8 encoded database:
+
 ``` shell
 su - postgres
 
@@ -37,6 +39,9 @@ postgres pg_dump --encoding utf8 paperlessdb -f paperless.sql
 createdb -E utf8 paperlessdb_new
 psql -f paperless.sql -d paperlessdb_new
 ```
+
+You might need to create a new database template according to this accepted solution on <a href="https://stackoverflow.com/questions/16736891/pgerror-error-new-encoding-utf8-is-incompatible" target="_blank">stack overflow</a> if you face the error "Use the same encoding as in the template database, or use template0 as template".
+
 3. Rename the old database and replace it with the new one…
 
 ``` sql
