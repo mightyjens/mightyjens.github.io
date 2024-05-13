@@ -1,5 +1,5 @@
 ---
-title: 'Rossignol React R8'
+title: 'Review: Rossignol React R8'
 date: 2022-02-09T06:34:15+02:00
 draft: false
 author: ["mightyjens"]
