@@ -42,7 +42,7 @@ psql -f paperless.sql -d paperlessdb_new
 
 (!) You might need to create a new database template according to this accepted solution on <a href="https://stackoverflow.com/questions/16736891/pgerror-error-new-encoding-utf8-is-incompatible" target="_blank">stack overflow</a> if you face the error *"Use the same encoding as in the template database, or use template0 as template"*.
 
-3. Rename the old database and replace it with the new one…
+3. Rename the old database and replace it with the new one:
 
 ``` sql
 ALTER DATABASE paperlessdb RENAME TO paperlessdb_old;
@@ -50,7 +50,7 @@ ALTER DATABASE paperlessdb_new RENAME TO paperlessdb;
 
 ALTER DATABASE paperlessdb OWNER TO paperless;
 ```
-4. Now we can restart our services
+4. Now we can restart our services and continue updating:
 ```  shell
 systemctl start paperless-consumer paperless-webserver paperless-scheduler
 ```
