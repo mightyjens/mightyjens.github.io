@@ -33,10 +33,16 @@ systemctl stop paperless-consumer paperless-webserver paperless-scheduler
 2. Create an encoded dump of your existing data and push it into a newly created, UTF-8 encoded database:
 
 ``` shell
+# Switch to postgres user context
 su - postgres
 
-postgres pg_dump --encoding utf8 paperlessdb -f paperless.sql
+# Create the dump
+pg_dump --encoding utf8 paperlessdb -f paperless.sql
+
+# Create the new database
 createdb -E utf8 paperlessdb_new
+
+# Restore the dump
 psql -f paperless.sql -d paperlessdb_new
 ```
 
