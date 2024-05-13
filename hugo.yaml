@@ -57,7 +57,7 @@ params:
     enabled: true
     title: "Welcome"
     subtitle:
-      Hi, my name is Jens, an IT guy and developer... Welcome to my personal blog :)
+      Hi, my name is Jens, an IT guy and developer from Koblenz... Welcome to my personal blog :)
       Here I would like to share a couple of my ideas and findings, but not only technical stuff.
       So there might be one or the other review or posts about products.
     imageUrl: "../images/10-05-2024_08-48-04.png"
