@@ -37,7 +37,7 @@ postgres pg_dump --encoding utf8 paperlessdb -f paperless.sql
 createdb -E utf8 paperlessdb_new
 psql -f paperless.sql -d paperlessdb_new
 ```
-3. Now rename the old database and replace it with the new one…
+3. Rename the old database and replace it with the new one…
 
 ``` sql
 ALTER DATABASE paperlessdb RENAME TO paperlessdb_old;
