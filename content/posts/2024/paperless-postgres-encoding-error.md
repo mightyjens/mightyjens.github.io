@@ -20,13 +20,16 @@ editPost:
 Maybe it will help some of you, but I just had an error updating 2.8.0 on my Paperless NGX instance.
 When trying to migrate the changes, the following error occured:
 
-***Conversion between UTF8 and SQL_ASCII is not supported***
+> Conversion between UTF8 and SQL_ASCII is not supported
 
-In fact, my Postgres database was set to SQL_ASCII instead of UTF-8. For me it helped to rebuild the database:
+In fact, my Postgres database was set to SQL_ASCII instead of UTF-8. For me it helped to rebuild the database. Make sure to backup/snapshot everything in case something goes wrong:
+
+1. Stop paperless services:
+
 ``` shell
 systemctl stop paperless-consumer paperless-webserver paperless-scheduler
 ```
-Create an encoded dump of your existing data and push it into a newly created, UTF-8 encoded database:
+2. Create an encoded dump of your existing data and push it into a newly created, UTF-8 encoded database:
 ``` shell
 su - postgres
 
@@ -34,7 +37,7 @@ postgres pg_dump --encoding utf8 paperlessdb -f paperless.sql
 createdb -E utf8 paperlessdb_new
 psql -f paperless.sql -d paperlessdb_new
 ```
-Now rename the old database and replace it with the new one…
+3. Now rename the old database and replace it with the new one…
 
 ``` sql
 ALTER DATABASE paperlessdb RENAME TO paperlessdb_old;
@@ -42,8 +45,7 @@ ALTER DATABASE paperlessdb_new RENAME TO paperlessdb;
 
 ALTER DATABASE paperlessdb OWNER TO paperless;
 ```
-Now we can restart our services
+4. Now we can restart our services
 ```  shell
 systemctl start paperless-consumer paperless-webserver paperless-scheduler
 ```
-Make sure to backup everything in case something goes wrong.
