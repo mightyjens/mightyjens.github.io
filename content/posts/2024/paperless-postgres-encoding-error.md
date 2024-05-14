@@ -39,14 +39,14 @@ su - postgres
 # Create the dump
 pg_dump --encoding utf8 paperlessdb -f paperless.sql
 
-# Create the new database
+# Create the new database (*)
 createdb -E utf8 paperlessdb_new
 
 # Restore the dump
 psql -f paperless.sql -d paperlessdb_new
 ```
 
-(!) You might need to create a new database template according to this accepted solution on <a href="https://stackoverflow.com/questions/16736891/pgerror-error-new-encoding-utf8-is-incompatible" target="_blank">stack overflow</a> if you face the error *"Use the same encoding as in the template database, or use template0 as template"* when trying to create the new database.
+(*) You might need to create a new database template according to this <a href="https://stackoverflow.com/a/16737776" target="_blank">accepted solution on stack overflow</a> in case you face the error *"New encoding (UTF8) is incompatible with the encoding of the template database (SQL_ASCII)"* when trying to create the new database.
 
 3. Rename the old database and replace it with the new one:
 
