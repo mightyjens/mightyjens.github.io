@@ -2,7 +2,7 @@
 title: 'Review: Rossignol React R8'
 date: 2022-02-09T06:34:15+02:00
 draft: false
-author: ["mightyjens"]
+#author: ["mightyjens"]
 categories: ["reviews"]
 tags: ["Products","Reviews","Ski"]
 series: [""]

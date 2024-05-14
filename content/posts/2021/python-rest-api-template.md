@@ -3,7 +3,7 @@ slug: 'Python Rest Api Template'
 title: 'A simple Python REST API-Template on Azure App Services'
 date: 2021-05-30T15:36:10+02:00
 draft: false
-author: ["mightyjens"]
+#author: ["mightyjens"]
 categories: ["coding"]
 tags: ["Coding","Python"]
 series: [""]

@@ -2,7 +2,7 @@
 title: 'Thule SnowPack (M) – ski rack review'
 date: 2022-01-02T07:53:05+02:00
 draft: false
-author: ["mightyjens"]
+#author: ["mightyjens"]
 categories: ["reviews"]
 tags: ["Products","Reviews","Thule"]
 series: ["thule"]

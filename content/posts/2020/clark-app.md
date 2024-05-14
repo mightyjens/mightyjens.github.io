@@ -2,7 +2,7 @@
 title: 'Review der Clark App – Versicherungen im Handy'
 date: 2020-05-09T07:42:29+02:00
 draft: false
-author: ["mightyjens"]
+#author: ["mightyjens"]
 categories: ["reviews"]
 tags: ["Products","Reviews","Apps"]
 series: [""]

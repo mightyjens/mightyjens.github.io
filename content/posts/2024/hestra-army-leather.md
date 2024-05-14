@@ -2,7 +2,7 @@
 title: 'Hestra Army Leather Heli'
 date: 2024-05-09T09:50:44+02:00
 draft: true
-author: ["mightyjens"]
+#author: ["mightyjens"]
 categories: ["general"]
 tags: [""]
 series: [""]

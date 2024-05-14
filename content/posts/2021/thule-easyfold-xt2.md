@@ -2,7 +2,7 @@
 title: 'Hands-On the Thule EasyFold XT 2'
 date: 2021-01-09T09:12:06+02:00
 draft: false
-author: ["mightyjens"]
+#author: ["mightyjens"]
 categories: ["reviews"]
 tags: ["Products","Reviews","Thule"]
 series: ["thule"]

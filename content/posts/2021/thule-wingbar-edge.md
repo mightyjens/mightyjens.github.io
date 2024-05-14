@@ -2,7 +2,7 @@
 title: 'Hands-On the Thule Wingbar Edge 9582 Roof Rack'
 date: 2021-12-17T08:36:53+02:00
 draft: false
-author: ["mightyjens"]
+#author: ["mightyjens"]
 categories: ["reviews"]
 tags: ["Products","Reviews","Thule"]
 series: ["thule"]
