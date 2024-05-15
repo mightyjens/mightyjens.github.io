@@ -9,6 +9,7 @@ tags: ["Coding","Python"]
 series: [""]
 categories_weight: 10
 comments: true
+showReactions: 1
 showToc: true
 TocOpen: false
 ShowReadingTime: false

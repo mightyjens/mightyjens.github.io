@@ -6,6 +6,7 @@ categories: ["linux"]
 tags: ["Open Source","Selfhosted"]
 categories_weight: 10
 comments: true
+showReactions: 1
 showToc: false
 TocOpen: false
 ShowWordCount: false

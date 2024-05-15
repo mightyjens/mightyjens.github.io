@@ -6,6 +6,7 @@ categories: ["paperless"]
 tags: ["Open Source","Selfhosted","Paperless"]
 categories_weight: 20
 comments: true
+showReactions: 1
 showToc: false
 TocOpen: false
 ShowWordCount: false

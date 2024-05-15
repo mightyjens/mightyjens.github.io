@@ -8,6 +8,7 @@ tags: [""]
 series: [""]
 categories_weight: 10
 comments: false
+showReactions: 0
 showToc: false
 TocOpen: false
 ShowReadingTime: false

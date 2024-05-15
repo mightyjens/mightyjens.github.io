@@ -8,6 +8,7 @@ tags: ["Products","Reviews"]
 series: [""]
 categories_weight: 10
 comments: true
+showReactions: 0
 showToc: true
 TocOpen: false
 ShowReadingTime: false
