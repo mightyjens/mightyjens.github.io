@@ -8,7 +8,7 @@ tags: ["Review","Products","MTB"]
 series: [""]
 categories_weight: 30
 comments: true
-showReactions: 0
+showReactions: 1
 showToc: true
 TocOpen: false
 ShowReadingTime: false
@@ -20,7 +20,6 @@ cover:
   image: posts/2024/scott-strike-eride/Bike_Wallpaper.jpeg
   caption: ""
   hiddenInList: false
-showReactions: 0
 ---
 
 ## The Bike

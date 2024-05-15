@@ -13,7 +13,7 @@ cover:
   caption: ""
   hiddenInList: true
 comments: true
-showReactions: 0
+showReactions: 1
 showToc: true
 TocOpen: false
 ShowReadingTime: false
