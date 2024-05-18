@@ -3,11 +3,11 @@ title: 'Hestra Army Leather Heli'
 date: 2024-05-09T09:50:44+02:00
 draft: true
 #author: ["mightyjens"]
-categories: ["general"]
-tags: [""]
+categories: ["reviews"]
+tags: ["Products","Reviews","Ski"]
 series: [""]
 categories_weight: 10
-comments: false
+comments: true
 showReactions: 1
 showToc: false
 TocOpen: false
