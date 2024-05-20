@@ -41,7 +41,8 @@ su - postgres
 pg_dump --encoding utf8 paperlessdb -f paperless.sql
 
 # Create the new database (*)
-createdb -E utf8 paperlessdb_new
+# createdb -E utf8 paperlessdb_new
+createdb -T template0 -E utf8 paperlessdb_new
 
 # Restore the dump
 psql -f paperless.sql -d paperlessdb_new
