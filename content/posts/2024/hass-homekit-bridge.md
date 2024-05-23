@@ -19,17 +19,17 @@ editPost:
     appendFilePath: true
 ---
 
-That's a short one for Unifi (Network > 8.1.113) users struggling with the connection between the *Home Assistant Bridge* and *Apple Homekit*. 
+That's a short one for Unifi (Network > 8.1.113) users struggling with the connection between the *Home Assistant Bridge* and *Apple Homekit*. In my installation, the connection attempt constantly ran into a timeout.
 
-First of all make sure the port of the HASS Bridge is correctly enabled in your firewall rules. In my case it's port 21064.
+First of all make sure the port of the HASS Bridge is enabled in your firewall rules. In my case it's port **21064**, which should be the default one.
 
 ![HASS Bridge](../hass-homekit-bridge/2024-05-23_09-28.png)
 
-In the next step, enable *Multicast DNS* and *IGMP Snooping* for the involved VLANs:
+In your **Network settings**, enable *Multicast DNS* and *IGMP Snooping* for the involved VLANs:
 
 ![Unifi Network](../hass-homekit-bridge/2024-05-23_09-25.png)
 
-If you try to connect it via WiFi, enable the *Multicast Enhancement* in your WiFi settings:
+If you try to connect it via WiFi, enable the *Multicast Enhancement* in your **WiFi settings**:
 
 ![Unifi WiFi](../hass-homekit-bridge/2024-05-23_09-25_1.png)
 
