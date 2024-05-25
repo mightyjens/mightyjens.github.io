@@ -3,7 +3,7 @@ title: 'Unifi settings to connect Home Assistant Bridge to Homekit'
 date: 2024-05-23T09:30:01+02:00
 #author: ["mightyjens"]
 categories: ["linux"]
-tags: ["Open Source","Selfhosted"]
+tags: ["Open Source","Selfhosted","Home Assistant"]
 categories_weight: 10
 draft: false
 comments: true
