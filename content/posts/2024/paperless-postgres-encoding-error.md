@@ -29,7 +29,7 @@ Make sure to backup/snapshot everything in case something goes wrong, I managed 
 1. Stop paperless services:
 
 ``` shell
-systemctl stop paperless-consumer paperless-webserver paperless-scheduler
+systemctl stop paperless-consumer paperless-webserver paperless-scheduler paperless-task-queue
 ```
 2. Create an encoded dump of your existing data and push it into a newly created, UTF-8 encoded database:
 
@@ -67,5 +67,5 @@ ALTER DATABASE paperlessdb OWNER TO paperless;
 4. Now we can restart our services and continue updating:
 
 ```  shell
-systemctl start paperless-consumer paperless-webserver paperless-scheduler
+systemctl start paperless-consumer paperless-webserver paperless-scheduler paperless-task-queue
 ```
