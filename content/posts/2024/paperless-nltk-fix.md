@@ -1,6 +1,6 @@
 ---
 #slug: title
-title: 'Paperless NLTK Quickfix'
+title: 'Paperless NGX: NLTK Quickfix'
 date: 2024-08-24T09:23:01+02:00
 draft: false
 #author: ["mightyjens"]
