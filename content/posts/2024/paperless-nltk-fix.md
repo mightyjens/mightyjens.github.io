@@ -26,7 +26,9 @@ editPost:
     Text: "Suggest Changes" 
     appendFilePath: true  
 ---
-This is just a small fix for you guys facing the following error while consuming new documents in paperless:
+This is just a small fix for you guys facing the following error while consuming new documents in paperless.
+Due to a vulnerability, the NLTK tokenizer had to be bumped to a recent version. 
+But there seems to be a problem with bare metal installations.
 
 ```shell
 Doc.pdf: The following error occurred while storing document Doc.pdf after parsing: 
@@ -45,9 +47,6 @@ Doc.pdf: The following error occurred while storing document Doc.pdf after parsi
     - PosixPath('/usr/share/nltk_data')
 **********************************************************************
 ```
-
-Due to a vulnerability, NLTK tokenizer had to be bumped to a recent version. 
-But there seems to be a problem with bare metal installations.
 
 To get the system up and running again, you could install the missing module manually:
 
