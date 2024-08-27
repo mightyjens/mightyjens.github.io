@@ -4,7 +4,7 @@ date: 2024-05-08T20:41:45+02:00
 draft: false
 #author: ["mightyjens"]
 categories: ["reviews"]
-tags: ["Review","Products","MTB"]
+tags: ["Reviews","Products","MTB"]
 series: [""]
 categories_weight: 30
 comments: true
