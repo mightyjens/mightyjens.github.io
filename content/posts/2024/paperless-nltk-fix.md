@@ -2,7 +2,7 @@
 #slug: title
 title: 'Paperless NGX: NLTK Quickfix'
 date: 2024-08-24T09:23:01+02:00
-draft: false
+draft: true
 #author: ["mightyjens"]
 categories: ["paperless"]
 tags: ["Open Source","Selfhosted","Paperless"]
