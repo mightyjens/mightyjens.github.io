@@ -51,10 +51,10 @@ error: externally-managed-environment
 To get the system up and running again, you could install the missing module manually:
 ```
 
-This actually means, that your python packages are marked to be updated by the os.
-Usually it would be the better approach to install in an venv.
+This actually means, that your python packages are marked to be updated by the os. Usually it would be the better approach to install in an venv. But as my installation is bare metal an dedicated to paperless, you can turn off this check by removing the following file.
 
-But as my installation is bare metal an dedicated to paperless, you can turn off this check by removing the following file.
-- rm -rf /usr/lib/python3.*/EXTERNALLY-MANAGED
+```shell
+rm -rf /usr/lib/python3.*/EXTERNALLY-MANAGED
+```
 
 And as always, take a snapshot or backup before updating.
