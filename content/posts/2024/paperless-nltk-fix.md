@@ -8,10 +8,10 @@ categories: ["paperless"]
 tags: ["Open Source","Selfhosted","Paperless"]
 series: [""]
 categories_weight: 10
-cover:
-  image: posts/welcome-new-blog/msg.png
-  caption: ""
-  hiddenInList: true
+#cover:
+#  image: posts/welcome-new-blog/msg.png
+#  caption: ""
+#  hiddenInList: true
 comments: true
 showReactions: 1
 showToc: true
