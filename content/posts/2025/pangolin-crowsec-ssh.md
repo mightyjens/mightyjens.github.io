@@ -1,6 +1,6 @@
 ---
 #slug: title
-title: 'Pangolin: Secure your hosts ssh'
+title: 'Pangolin: Secure your hosts ssh using crowdsec'
 date: 2025-04-11T09:18:01+02:00
 draft: false
 #author: ["mightyjens"]
@@ -28,6 +28,7 @@ editPost:
 ---
 SSH is a critical service for system administrators, but it is often targeted by brute-force attacks. 
 As part of the Pangolin open-source project, securing your infrastructure is a priority.
+To additionally secure your hosts ssh access using crowdsec, we'll have to take a couple of steps.
 
 ## Install local bouncer on your host
 ```shell
@@ -97,3 +98,9 @@ labels:
 
 After restarting your stack, crowdsec should start parsing your auth.log.
 Check if you have sshd collections installed.
+
+Your auth.log should show up in metrics after connecting to ssh
+
+```shell
+docker exec crowdsec cscli metrics
+```
