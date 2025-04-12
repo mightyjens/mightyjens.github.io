@@ -21,10 +21,10 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: false
 UseHugoToc: true
-editPost:
-    URL: "https://github.com/mightyjens/mightyjens.github.io/tree/main/content"
-    Text: "Suggest Changes" 
-    appendFilePath: true  
+#editPost:
+#    URL: "https://github.com/mightyjens/mightyjens.github.io/tree/main/content"
+#    Text: "Suggest Changes" 
+#    appendFilePath: true  
 ---
 SSH is a critical service for system administrators, but it is often targeted by brute-force attacks. 
 As part of the Pangolin open-source project, securing your infrastructure is a priority.
@@ -116,3 +116,5 @@ When setup correctly, our new bouncer should appear...
 
 ...as well as our _auth.log_ acquisition...
 ![Metrics](../pangolin-crowsec-ssh/cscli_metrics.png)
+
+This is another small layer to make your VPS a little bit safer.
