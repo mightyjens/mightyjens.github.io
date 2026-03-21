@@ -23,6 +23,10 @@ menu:
       name: Blog
       url: /posts
       weight: 20
+    - identifier: mesh
+      name: Mesh
+      url: /mesh
+      weight: 25      
     - identifier: tags
       name: Tags
       url: /tags/
