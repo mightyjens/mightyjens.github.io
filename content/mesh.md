@@ -72,12 +72,7 @@ graph TD
 - [Meshtastic Documentation](https://meshtastic.org/docs/)
 
 
-
 ## Contact
 
 Questions about Meshcore/Meshtastic?  
 Feel free to contact me at ***hello[at]bytehero.io***
-
----
-
-*Last updated: {{ .Date.Format "2026-03-22" }}*

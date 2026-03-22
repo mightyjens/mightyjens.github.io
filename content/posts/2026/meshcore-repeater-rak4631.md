@@ -26,3 +26,12 @@ UseHugoToc: true
 #    Text: "Suggest Changes" 
 #    appendFilePath: true  
 ---
+My Meshcore Repeater is built around RAK19007 + RAK4631 for robust 868 MHz LoRa connectivity.
+
+It's fully autonomous with a 18650 battery, 6V/3W solar panel, and 1A MPPT charge controller – perfect for continuous outdoor operation.
+
+The 5.5 dBi Meshtastic antenna (40cm, N-Male) delivers excellent range up to 8+ km in rural areas.
+
+Compact 3D-printed (PETG) enclosure with SMA connector and weatherproof design makes it ideal as repeater! 🚀
+
+![Bouncers](../meshcore-repeater-rak4631/RAK4631_1.JPEG)
