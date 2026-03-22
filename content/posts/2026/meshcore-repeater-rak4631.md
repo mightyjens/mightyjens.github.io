@@ -26,12 +26,39 @@ UseHugoToc: true
 #    Text: "Suggest Changes" 
 #    appendFilePath: true  
 ---
-My Meshcore Repeater is built around RAK19007 + RAK4631 for robust 868 MHz LoRa connectivity.
+## Meshcore Repeater: DE-KO j3nstastic
 
-It's fully autonomous with a 18650 battery, 6V/3W solar panel, and 1A MPPT charge controller – perfect for continuous outdoor operation.
 
-The 5.5 dBi Meshtastic antenna (40cm, N-Male) delivers excellent range up to 8+ km in rural areas.
+### Core Components
 
-Compact 3D-printed (PETG) enclosure with SMA connector and weatherproof design makes it ideal as repeater! 🚀
+| Component | Specs | Function |
+|-----------|-------|----------|
+| **RAK19007** | Dual carrier board | Modular base for WisBlock sensors |
+| **RAK4631** | nRF52840 + SX1262 LoRa | 868 MHz core, Bluetooth LE, ARM Cortex-M4 |
+| **18650 Battery** | 3.7V 3000mAh Li-Ion | 48h autonomy (no sun) |
+| **Solar Panel** | 6V/3W polycrystalline | ~1.2A peak charging |
+| **MPPT Controller** | 1A TP4056-based | Max Power Point Tracking, overcharge protection |
 
-![Bouncers](../meshcore-repeater-rak4631/RAK4631_1.JPEG)
+### Technical Highlights
+| Spec | Value |
+|-----|-------|
+| **Frequency** | 868 MHz EU ISM |
+| **TX Power** | 20 dBm |
+| **Antenna Gain** | 5.5 dBi |
+| **Urban Range** | 1.2 km |
+| **Rural Range** | 8+ km LOS |
+| **TX Current** | 120 mA |
+| **RX Current** | 25 mA |
+| **Sleep Current** | 2 µA |
+
+
+**Key Features:**
+- **RAK WisBlock ecosystem** - Stackable modules for future expansion
+- **Intelligent power management** - Solar-first, battery backup
+- **N-Male 5.5dBi antenna** - Optimized for EU 868 MHz propagation
+- **3D-printed enclosure** - PETG UV-resistant, fully weatherproof
+
+
+![RAK4631 Repeater internals](../meshcore-repeater-rak4631/RAK4631_3.JPEG)
+![Solar-powered enclosure](../meshcore-repeater-rak4631/RAK4631_2.JPEG)
+![Complete assembly with antenna](../meshcore-repeater-rak4631/RAK4631_1.JPEG)

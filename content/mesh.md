@@ -3,10 +3,10 @@ title: 'Meshcore & Meshtastic'
 ShowBreadCrumbs: false
 comments: false
 searchHidden: true
+showToc: true
+TocOpen: false
 tags: ["Meshcore", "Meshtastic", "LoRa"]
 ---
-
-# Meshcore & Meshtastic
 
 My activities around Meshcore LoRa mesh networking and Meshtastic projects.
 
