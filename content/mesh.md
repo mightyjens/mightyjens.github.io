@@ -18,7 +18,7 @@ This page documents my projects, tests, and experiences with Meshcore and Meshta
 
 ### Home-Setup
 **Description:**  
-My current Meshcore setup at Koblenz. 
+My current *Meshcore* setup at Koblenz. 
 
 **Status:** Running
 
@@ -38,7 +38,7 @@ graph TD
     subgraph "Koblenz Home Network"
         RB[Repeater<br/>DE-KO j3nstastic<br/>RAK 4631<br/>868 MHz<br/>20 dBm<br/>5 dBi Ant]
         
-        CH[Companion Home<br/>j3nstastic home<br/>RAK 4631<br/>868 MHz<br/>8 dBi Ant]
+        CH[Companion Home<br/>j3nstastic home<br/>RAK 4631<br/>868 MHz<br/>3 dBi Ant]
         
         CM[Companion Mobile<br/>j3nstastic mobile<br/>SenseCAP T1000-E<br/>868 MHz<br/>3 dBi Ant]
     end
@@ -58,13 +58,23 @@ graph TD
 
 - Repeater: 
     - Name: DE-KO j3nstastic
-    - Modell: RAK 4631
+    - Model: RAK 4631
 - Companion #1 
     - Name: j3nstastic home
-    - Modell: RAK 4631
+    - Model: RAK 4631
 - Companion #2 
     - Name: j3nstastic mobile
-    - Modell: SenseCAP T1000-E
+    - Model: SenseCAP T1000-E
+
+## All Meshcore & Meshtastic Posts
+
+{{ $pages := where site.RegularPages "Params.tags" "intersect" (slice "lora") }}
+{{ range first 10 $pages }}
+- **[{{ .Title }}]({{ .Permalink }})** ({{ .Date.Format "Jan 2, 2006" }})
+{{ end }}
+{{ if gt (len $pages) 10 }}
+[View all {{ len $pages }} posts →](/tags/lora/)
+{{ end }}
 
 ## Resources
 

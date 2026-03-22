@@ -35,7 +35,7 @@ UseHugoToc: true
 |-----------|-------|----------|
 | **RAK19007** | Dual carrier board | Modular base for WisBlock sensors |
 | **RAK4631** | nRF52840 + SX1262 LoRa | 868 MHz core, Bluetooth LE, ARM Cortex-M4 |
-| **18650 Battery** | 3.7V 3000mAh Li-Ion | 48h autonomy (no sun) |
+| **18650 Battery** | 3.7V 3000mAh Li-Ion | > 48h autonomy (no sun) |
 | **Solar Panel** | 6V/3W polycrystalline | ~1.2A peak charging |
 | **MPPT Controller** | 1A TP4056-based | Max Power Point Tracking, overcharge protection |
 
