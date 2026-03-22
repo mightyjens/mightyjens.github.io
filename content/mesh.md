@@ -12,19 +12,19 @@ My activities around Meshcore LoRa mesh networking and Meshtastic projects.
 
 ## Overview
 
-This page documents my projects, tests, and experiences with Meshcore and Meshtastic devices. Meshcore is a lightweight alternative focused on secure, encrypted text messaging with efficient LoRa routing. Meshtastic is an open-source project that turns affordable LoRa radios into a decentralized mesh network for off-grid communication. 
+This page documents my projects, tests, and experiences with Meshcore and Meshtastic devices. Meshcore is a lightweight alternative focused on secure, encrypted text messaging with efficient LoRa routing. Meshtastic is an open-source project that turns affordable LoRa radios into a decentralized mesh network for off-grid communication. For me personally, Meshcore feels much more reliable and mature, although it is the way younger project. 
 
-### Meshcore Overview
+### Meshcore
 Meshcore is a multi-platform system for encrypted LoRa communication, optimized for off-grid scenarios, emergencies, outdoor activities, and IoT sensors. Unlike Meshtastic's flood routing, it uses structured repeaters for more efficient multi-hop forwarding and offers precise delivery confirmations. It integrates easily with common hardware through a web-flasher and works purely browser-based without internet.
 
-### Meshtastic Overview
+### Meshtastic
 Meshtastic leverages LoRa technology to relay messages across a mesh network, where devices forward signals to achieve kilometers of range—perfect for areas without internet or cellular coverage. The firmware runs on devices like Heltec or Lilygo boards, connects via Bluetooth or WiFi to apps, and supports up to 100 nodes per network. It's community-driven and license-free in most regions.
 
 ## Current Projects
 
 ### Home-Setup
 **Description:**  
-My current *Meshcore* setup in Koblenz. 
+My current **Meshcore** setup in Koblenz with a solar powered repeater and two companion nodes.
 
 **Status:** Running
 
@@ -32,8 +32,10 @@ My current *Meshcore* setup in Koblenz.
 | Parameter | Value |
 |-----------|-------|
 | Frequency | 868 MHz |
+| Preset    | EU Narrow|
+|Duty-Cycle| 10%    |
+| Scopes    | TBD   |
 | Firmware  | v1.14.1 |
-
 
 #### Hardware Setup
 
@@ -74,21 +76,29 @@ graph TD
     - Model: SenseCAP T1000-E
 
 
-## Offsite Setup
-My Meshcore [Repeater in Bad Camberg](https://www.bytehero.io/posts/2026/meshcore-repeater-rak4631/#offsite-meshcore-repeater-de-bc-j3nstastic). I actually shares the same specs of the above repeater, but the housing is printed in PETG-CF.
+### Offsite Setup
+My Meshcore [Repeater in Bad Camberg](https://www.bytehero.io/posts/2026/meshcore-repeater-rak4631/#offsite-meshcore-repeater-de-bc-j3nstastic) at my parents house. I will join it the [Taunus Mesh](https://www.taunus-mesh.de/) initiative to support their network. It actually shares the same specs of the above repeater, but the housing is printed in PETG-CF.
 
+**Status:** Running
+
+**Technical Details:**
+| Parameter | Value |
+|-----------|-------|
+| Frequency | 868 MHz |
+| Preset    | EU Narrow|
+|Duty-Cycle| 10%  |
+| Scopes    | TBD   |
+| Firmware  | v1.14.1 |
 
 ## Related posts
 
-All [Meshcore & Meshtastic posts](/tags/lora/) (auto-generated list)
-
-
+All [Meshcore & Meshtastic](/tags/lora/) tagged posts on my blog.
 
 ## Resources
 
 - [Meshcore Documentation](https://github.com/meshcore-dev/MeshCore/blob/main/docs/faq.md)
 - [Meshtastic Documentation](https://meshtastic.org/docs/)
-
+- [Taunus Mesh](https://www.taunus-mesh.de/)
 
 ## Contact
 
