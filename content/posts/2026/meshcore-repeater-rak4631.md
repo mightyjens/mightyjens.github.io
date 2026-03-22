@@ -63,3 +63,13 @@ This is my home repeater for *Meshcore*.
 ![RAK4631 Repeater internals](../meshcore-repeater-rak4631/RAK4631_3.png)
 ![Solar-powered enclosure](../meshcore-repeater-rak4631/RAK4631_2.png)
 ![Complete assembly with antenna](../meshcore-repeater-rak4631/RAK4631_1.png)
+
+## Offsite Meshcore Repeater: DE-BC j3nstastic 
+
+Same technical specifications like obove, printed in PETG-CF:
+
+![Complete assembly with antenna](../meshcore-repeater-rak4631/RAK4631_4.png)
+
+Here is a comparison between PETG and PETG-CF:
+
+![Comparison](../meshcore-repeater-rak4631/RAK4631_5.png)
