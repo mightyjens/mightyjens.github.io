@@ -75,7 +75,7 @@ graph TD
 
 
 ## Offsite Setup
-My Meshcore Repeater in Bad Camberg.
+My Meshcore [Repeater in Bad Camberg](https://www.bytehero.io/posts/2026/meshcore-repeater-rak4631/#offsite-meshcore-repeater-de-bc-j3nstastic). I actually shares the same specs of the above repeater, but the housing is printed in PETG-CF.
 
 
 ## Related posts
