@@ -5,7 +5,7 @@ date: 2026-03-22T09:04:01+02:00
 draft: false
 #author: ["mightyjens"]
 categories: ["meshcore"]
-tags: ["Meshcore", "Meshtastic", "LoRa"]
+tags: ["Meshcore", "LoRa"]
 series: [""]
 categories_weight: 10
 #cover:
@@ -28,6 +28,7 @@ UseHugoToc: true
 ---
 ## Meshcore Repeater: DE-KO j3nstastic
 
+This is my home repeater for *Meshcore*.
 
 ### Core Components
 
