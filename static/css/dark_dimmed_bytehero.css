@@ -136,3 +136,17 @@ html {
   line-height: 1.6;
   word-break: break-word;
 }
+
+.mermaid {
+  background: transparent !important;
+}
+
+.dark .mermaid {
+  background: transparent !important;
+  color: #e0e0e0 !important;
+}
+
+.mermaid svg {
+  background: transparent !important;
+  overflow: visible;
+}
