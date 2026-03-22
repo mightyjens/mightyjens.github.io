@@ -34,7 +34,7 @@ My current *Meshcore* setup at Koblenz.
 Network Overview
 
 ```mermaid
-%%{init: {'theme':'neutral', 'themeVariables': { 'background': 'transparent'}}}%%
+
 graph TD
     subgraph "Koblenz Home Network"
         RB[Repeater<br/>DE-KO j3nstastic<br/>RAK 4631<br/>868 MHz<br/>20 dBm<br/>5 dBi Ant]
