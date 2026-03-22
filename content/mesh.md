@@ -4,8 +4,8 @@ ShowBreadCrumbs: false
 comments: false
 searchHidden: true
 showToc: true
-TocOpen: false
-tags: ["Meshcore", "Meshtastic", "LoRa"]
+TocOpen: true
+#tags: ["Meshcore", "Meshtastic", "LoRa"]
 ---
 
 My activities around Meshcore LoRa mesh networking and Meshtastic projects.

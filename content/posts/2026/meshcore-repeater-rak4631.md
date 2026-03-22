@@ -59,6 +59,6 @@ UseHugoToc: true
 - **3D-printed enclosure** - PETG UV-resistant, fully weatherproof
 
 
-![RAK4631 Repeater internals](../meshcore-repeater-rak4631/RAK4631_3.JPEG)
-![Solar-powered enclosure](../meshcore-repeater-rak4631/RAK4631_2.JPEG)
-![Complete assembly with antenna](../meshcore-repeater-rak4631/RAK4631_1.JPEG)
+![RAK4631 Repeater internals](../meshcore-repeater-rak4631/RAK4631_3.png)
+![Solar-powered enclosure](../meshcore-repeater-rak4631/RAK4631_2.png)
+![Complete assembly with antenna](../meshcore-repeater-rak4631/RAK4631_1.png)
