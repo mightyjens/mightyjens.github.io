@@ -62,9 +62,7 @@
   {{- end }}
 </article>
 
-{{ if .Page.Store.Get "hasMermaid" }}
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 <script>mermaid.initialize({startOnLoad:true,theme:'neutral',themeVariables:{background:'transparent'}});</script>
-{{ end }}
 
 {{- end }}{{/* end main */}}
