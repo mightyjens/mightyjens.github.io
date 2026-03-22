@@ -34,6 +34,7 @@ My current *Meshcore* setup at Koblenz.
 Network Overview
 
 ```mermaid
+%%{init: {'theme':'neutral', 'themeVariables': { 'background': 'transparent'}}}%%
 graph TD
     subgraph "Koblenz Home Network"
         RB[Repeater<br/>DE-KO j3nstastic<br/>RAK 4631<br/>868 MHz<br/>20 dBm<br/>5 dBi Ant]
@@ -57,7 +58,7 @@ graph TD
 ```
 
 - Repeater: 
-    - Name: DE-KO j3nstastic
+    - Name: [DE-KO j3nstastic](https://www.bytehero.io/posts/2026/meshcore-repeater-rak4631/)
     - Model: RAK 4631
 - Companion #1 
     - Name: j3nstastic home
@@ -66,15 +67,11 @@ graph TD
     - Name: j3nstastic mobile
     - Model: SenseCAP T1000-E
 
-## All Meshcore & Meshtastic Posts
+## Related posts
 
-{{ $pages := where site.RegularPages "Params.tags" "intersect" (slice "lora") }}
-{{ range first 10 $pages }}
-- **[{{ .Title }}]({{ .Permalink }})** ({{ .Date.Format "Jan 2, 2006" }})
-{{ end }}
-{{ if gt (len $pages) 10 }}
-[View all {{ len $pages }} posts →](/tags/lora/)
-{{ end }}
+All [Meshcore & Meshtastic posts](/tags/lora/) (auto-generated list)
+
+
 
 ## Resources
 
