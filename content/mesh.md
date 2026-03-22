@@ -83,3 +83,7 @@ All [Meshcore & Meshtastic posts](/tags/lora/) (auto-generated list)
 
 Questions about Meshcore/Meshtastic?  
 Feel free to contact me at ***hello[at]bytehero.io***
+
+Or join me on my Matrix Rooms: 
+- [Meshcore Koblenz](https://matrixrooms.info/room/meshcore-koblenz:bytehero.io)
+- [Meshtastic Koblenz](https://matrixrooms.info/room/meshtastic-koblenz:bytehero.io)
