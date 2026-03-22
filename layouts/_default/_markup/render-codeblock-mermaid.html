@@ -1,16 +1,17 @@
 <div class="mermaid">
 {{- .Inner | safeHTML -}}
-</script>
+</div>
+
 <script src="{{ "js/mermaid.min.js" | relURL }}"></script>
 <script>
-mermaid.initialize({
-  startOnLoad: true,
-  theme: 'neutral',
-  themeVariables: { 
-    background: 'transparent',
-    primaryColor: '#e1f5fe',
-    primaryTextColor: '#000',
-    lineColor: '#01579b'
-  }
-});
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: 'neutral',
+    themeVariables: {
+      background: 'transparent',
+      primaryColor: '#e1f5fe',
+      primaryTextColor: '#000',
+      lineColor: '#01579b'
+    }
+  });
 </script>
