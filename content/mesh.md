@@ -4,7 +4,7 @@ ShowBreadCrumbs: false
 comments: false
 searchHidden: true
 showToc: true
-TocOpen: true
+TocOpen: false
 #tags: ["Meshcore", "Meshtastic", "LoRa"]
 ---
 
