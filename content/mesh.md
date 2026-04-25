@@ -90,6 +90,38 @@ My Meshcore [Repeater in Bad Camberg](https://www.bytehero.io/posts/2026/meshcor
 | Scopes    | TBD   |
 | Firmware  | v1.14.1 |
 
+# Repeater setups
+
+My general repeater setups
+
+## Adverts
+
+Direct Hop: 0 (deactivated, as this is done by flood)
+Flood Adverts: 48h
+
+## Regions & Scopes
+
+Currently, I have set up the following regions on my repeaters. I think it makes sense to also include neighboring regions, since repeaters aren't located everywhere. This way, your own repeater might help with transmissions in other regions as well.
+
+```
+de
+de-he
+de-nw
+de-rp
+de-rp-ko
+de-sued
+de-west
+eifel
+europe
+koblenz
+rhein-main
+rhein-neckar
+rheinland
+taunus
+westerwald
+```
+
+
 ## Related posts
 
 All [Meshcore & Meshtastic](/tags/lora/) tagged posts on my blog.
