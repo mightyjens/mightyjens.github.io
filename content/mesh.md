@@ -122,17 +122,17 @@ westerwald
 ```
 
 
-## Related posts
+# Related posts
 
 All [Meshcore & Meshtastic](/tags/lora/) tagged posts on my blog.
 
-## Resources
+# Resources
 
 - [Meshcore Documentation](https://github.com/meshcore-dev/MeshCore/blob/main/docs/faq.md)
 - [Meshtastic Documentation](https://meshtastic.org/docs/)
 - [Taunus Mesh](https://www.taunus-mesh.de/)
 
-## Contact
+# Contact
 
 Questions about Meshcore/Meshtastic?  
 Feel free to contact me at ***hello[at]bytehero.io***
