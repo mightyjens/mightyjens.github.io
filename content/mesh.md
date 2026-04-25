@@ -1,5 +1,5 @@
 ---
-title: 'Meshcore & Meshtastic'
+title: 'Meshcore'
 ShowBreadCrumbs: false
 comments: false
 searchHidden: true
