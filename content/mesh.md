@@ -79,6 +79,16 @@ graph TD
 ## Offsite Setup
 My Meshcore [Repeater in Bad Camberg](https://www.bytehero.io/posts/2026/meshcore-repeater-rak4631/#offsite-meshcore-repeater-de-bc-j3nstastic) at my parents house. I will join it the [Taunus Mesh](https://www.taunus-mesh.de/) initiative to support their network. It actually shares the same specs of the above repeater, but the housing is printed in PETG-CF.
 
+## Observer and bot
+
+I have a mqtt observer running on my homeserver. It is based on a heltec v3 flashed with the letsmesh.net firmware.
+The MQTT client serves the data to [analyzer.letsmesh.net](https://analyzer.letsmesh.net/node/39B70CA4CC32E8945A245A72DF0E94D280593A2F26AFFD02DF9CB62F6C423512) and [corescope.meshrheinland.de](https://corescope.meshrheinland.de/#/observers/39B70CA4CC32E8945A245A72DF0E94D280593A2F26AFFD02DF9CB62F6C423512).
+
+Additionally, on the other heltec v3, I run a simple ping & test bot.
+
+
+![HP Microserver](../MeshServerHP.png)
+
 **Status:** Running
 
 **Technical Details:**
@@ -96,8 +106,8 @@ My general repeater setups
 
 ## Adverts
 
-Direct Hop: 0 (deactivated, as this is done by flood)
-Flood Adverts: 48h
+- Direct Hop: 0 (deactivated, as this is done by flood)
+- Flood Adverts: 48h
 
 ## Regions & Scopes
 
