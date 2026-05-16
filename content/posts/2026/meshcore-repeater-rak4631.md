@@ -1,6 +1,6 @@
 ---
 #slug: title
-title: 'Meshcore: Repeater based on RAK4631'
+title: 'Meshcore Repeater based on RAK4631'
 date: 2026-03-22T09:04:01+02:00
 draft: false
 #author: ["mightyjens"]

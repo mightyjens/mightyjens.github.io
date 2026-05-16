@@ -75,9 +75,16 @@ graph TD
     - Name: j3nstastic mobile
     - Model: SenseCAP T1000-E
 
-
 ## Offsite Setup
 My Meshcore [Repeater in Bad Camberg](https://www.bytehero.io/posts/2026/meshcore-repeater-rak4631/#offsite-meshcore-repeater-de-bc-j3nstastic) at my parents house. I will join it the [Taunus Mesh](https://www.taunus-mesh.de/) initiative to support their network. It actually shares the same specs of the above repeater, but the housing is printed in PETG-CF.
+### Guerilla Nodes
+
+Beyond the fixed home setup I build small, self-contained solar repeater units that can be deployed quickly at any location — rooftops, balconies, fences — without external power or infrastructure. The term "Guerilla Node" is intentional: these units go up fast, run indefinitely on solar, and extend the mesh wherever a coverage gap exists.
+
+The current node is built around the RAK WisBlock platform (RAK 19007 + RAK 4631), paired with a 10 W solar panel, a protected Keeppower 18650 cell, a 5 dBi ALFA antenna, and a 869 MHz SAW filter for clean RX in dense RF environments. The full hardware write-up is here:
+
+→ **[Building a Solar-Powered MeshCore Repeater with RAK WisBlock](/posts/2026/meshcore-repeater-build-guide/)**
+
 
 **Status:** Running
 
