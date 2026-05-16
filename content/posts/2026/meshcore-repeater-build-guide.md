@@ -29,11 +29,11 @@ UseHugoToc: true
 
 ## Overview
 
-This post documents the hardware build of my solar-powered standalone [MeshCore](https://meshcore.co.uk/) repeater. The design prioritises low power consumption, clean RF performance, and weather resistance — running completely unattended on a 10 W solar panel and a single protected 18650 cell.
+This post documents the hardware build of my solar-powered standalone [MeshCore](https://meshcore.io/) repeater. The design prioritises low power consumption, clean RF performance, and weather resistance — running completely unattended on a 10 W solar panel and a single protected 18650 cell.
 
 ## Credits
 
-A big thank you to a fellow member of the **MeshCore Rheinland** group, who came up with the original idea and pointed me towards exactly the right components. Without that nudge this build would still be on a whiteboard.
+A big thank you to a fellow member Thoren of the **MeshCore Rheinland** group, who came up with the original idea and pointed me towards exactly the right components. Without that nudge this build would still be on a whiteboard.
 
 ---
 
@@ -84,6 +84,23 @@ The deep-sleep current of just 3–5 µA is a meaningful advantage over ESP32-ba
 | Protection (PCM) | Over-charge, deep-discharge, short-circuit |
 
 The RAK 19007 charges at roughly 500 mA, well below 1C for this cell — so the PCM protection circuit won't trigger during normal solar charging. The built-in protection makes it suitable for unattended, long-term outdoor operation.
+
+> **Note on external BMS:** I deliberately have no dedicated external BMS connected in this build. The Keeppower 18650 already carries an integrated PCM circuit covering over-charge, deep-discharge, and short-circuit protection. Adding a second BMS on top would be redundant — the cell is individually protected, and the RAK 19007 charge controller handles the charging side. One layer of well-specified protection is cleaner and more reliable than two layers that could interact unexpectedly.
+
+---
+
+### Battery Holder: 18650 3-Slot Box (No-Weld)
+
+| Spec | Value |
+|------|-------|
+| Compatible cells | 18650 / 21700 |
+| Slots | 3 (usable as 1S3P, 2S, 3S or single-cell) |
+| Wiring | Pre-wired leads, no spot-welding required |
+| Lid | Snap-on with retaining tab |
+| Housing | Transparent frosted plastic |
+| Source | [AliExpress](https://de.aliexpress.com/item/1005009683525747.html) |
+
+A simple, no-weld 18650 holder that keeps the cell securely in place inside the enclosure without any permanent modifications. The snap-on lid prevents the cell from rattling loose under vibration, and the pre-soldered wire leads make swapping cells straightforward if needed. Only one of the three slots is populated in this build — the remaining slots leave room to add capacity later if required.
 
 ---
 
@@ -137,15 +154,49 @@ The panel originally shipped with a Micro USB plug, which was removed and replac
 
 ---
 
+### Enclosure Vent: IP68 Pressure Equalization Valve
+
+| Spec | Value |
+|------|-------|
+| Type | Breathable vent plug (Gore-style membrane) |
+| Thread | M12 (this build) — available M5–M20 |
+| Rating | IP68 |
+| Material | Nylon PA66 |
+| Function | Pressure equalisation, moisture exclusion |
+| Source | [AliExpress](https://de.aliexpress.com/item/1005007364150372.html) |
+
+A sealed outdoor enclosure is subject to significant internal pressure swings as it heats up during the day and cools down at night. Without a vent, repeated pressure cycles will eventually work moisture past the gasket seals — exactly the failure mode you want to avoid in an unattended deployment. The breathable vent plug solves this by allowing air to pass through a hydrophobic membrane that blocks liquid water and dust. IP68-rated, so it doesn't compromise the enclosure's overall protection class.
+
+---
+
+### SAW Filter: 869 MHz / 2 MHz Narrowband
+
+| Spec | Value |
+|------|-------|
+| Type | SAW (Surface Acoustic Wave) bandpass filter |
+| Center frequency | 869 MHz |
+| Bandwidth | 2 MHz (narrowband) |
+| Target use | Meshtastic / MeshCore EU868 |
+| Placement | Inline between SX1262 and antenna path |
+| Source | [Elektronik Reich](https://elektronikreich.de/product.html?id=3) |
+
+The EU868 frequency plan is surrounded by busy spectrum — GSM-900 base stations sit just below 880 MHz, and various ISM devices occupy adjacent bands. A SAW filter at 869 MHz with 2 MHz passband lets through the MeshCore channel (typically 869.525 MHz) while sharply attenuating everything outside that window.
+
+The 2 MHz bandwidth is well matched to the LoRa signal: even at the widest channel setting (500 kHz BW) the signal fits comfortably inside the passband, so there is no in-band distortion. The benefit shows up most in dense urban environments where adjacent-band interference would otherwise desensitise the SX1262 receiver.
+
+Placed inline between the SX1262 RF port and the RG178 pigtail, the filter adds a small insertion loss (typically 1–2 dB for SAW filters in this range) — a worthwhile trade for meaningfully better receive sensitivity under real-world conditions.
+
+---
+
 ## RF Chain Summary
 
 For reference, the complete RF path from SoC to air:
 
 ```
-RAK 4631 (SX1262) → U.FL → RG178 pigtail (<20 cm) → N-Female bulkhead → N-Male antenna cable → ALFA 5 dBi stick
+RAK 4631 (SX1262) → U.FL → SAW Filter 869 MHz → RG178 pigtail (<20 cm) → N-Female bulkhead → N-Male antenna cable → ALFA 5 dBi stick
 ```
 
-Estimated total insertion loss between SoC output and antenna feed point: **< 1 dB**.
+Estimated total insertion loss between SoC output and antenna feed point: **~2–3 dB** (SAW filter ~1–2 dB + pigtail < 1 dB).
 
 ---
 
