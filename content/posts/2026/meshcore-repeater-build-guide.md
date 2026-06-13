@@ -85,7 +85,7 @@ The deep-sleep current of just 3–5 µA is a meaningful advantage over ESP32-ba
 
 The RAK 19007 charges at roughly 500 mA, well below 1C for this cell — so the PCM protection circuit won't trigger during normal solar charging. The built-in protection makes it suitable for unattended, long-term outdoor operation.
 
-> **Note on external BMS:** I deliberately have no dedicated external BMS connected in this build. The Keeppower 18650 already carries an integrated PCM circuit covering over-charge, deep-discharge, and short-circuit protection. Adding a second BMS on top would be redundant — the cell is individually protected, and the RAK 19007 charge controller handles the charging side. One layer of well-specified protection is cleaner and more reliable than two layers that could interact unexpectedly.
+> **Note on external BMS:** I deliberately have no dedicated external BMS connected in this build. The Keeppower 18650 already carries an integrated PCM circuit covering over-charge, deep-discharge, and short-circuit protection. Adding a second BMS on top would be redundant — the cell is individually protected, and the RAK 19007 charge controller handles the charging side. But a CN3791 MPPT would fit perfectly and add the ability for faster charging. 
 
 ---
 
