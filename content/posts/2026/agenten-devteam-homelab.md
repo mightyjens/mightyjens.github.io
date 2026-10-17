@@ -33,7 +33,7 @@ Two roles, just like in a real Scrum team:
 - **Scrum Master agent:** gives me an overview of open issues and bugs, estimates type and effort (S/M/L), proposes an order and asks for my approval.
 - **Developer agent:** implements approved issues on its own – branch, code, tests, pull request.
 
-Communication runs through my own **Matrix server**; tasks and code live in my **Gitea instance**.
+Communication runs through my own **Matrix server**; tasks and code live in my **Gitea instance**. A dedicated **inbox channel** in Matrix lets me create simple issues in Gitea straight from the chat – without ever opening the web UI.
 
 ## Four Architecture Principles
 
@@ -53,14 +53,20 @@ backlog → proposed → approved → in-progress → review → done
 
 In daily use it looks like this:
 
-1. Create issues in Gitea, set a priority.
+1. Create issues in Gitea, set a priority – or simply drop an idea into the Matrix inbox channel (see below).
 2. Send `!plan` in Matrix. The Scrum Master posts a sprint proposal and one card per issue.
 3. Approve a card with ✅ (or `!approve all`, `!reject`, `!retry`, `!pause` …).
 4. The orchestrator queues the issue, starts a fresh sandbox and lets the coding agent ([Aider](https://aider.chat), headless) work against the LLM.
 5. Green tests → PR with `Closes #<nr>` and the test output, linked in the card's thread. Red tests → `WIP:` PR and `blocked`.
 6. I review and merge – the orchestrator sets `done`.
 
-A nice side effect: if I reply in a card's Matrix thread, it ends up as a comment on the issue, and the agent reads it on its next run. That lets me steer after a `blocked` without opening Gitea. Via an `#inbox` room, spontaneous thoughts are turned into issue drafts by the LLM, which I move into the backlog with ✅.
+A nice side effect: if I reply in a card's Matrix thread, it ends up as a comment on the issue, and the agent reads it on its next run. That lets me steer after a `blocked` without opening Gitea.
+
+### The Inbox Channel: Issues Straight from Matrix
+
+Not every idea deserves a trip to the Gitea web UI. That's why there is a dedicated `#inbox` room in Matrix. I write a short, free-form message there – "add a `--dry-run` flag to the export script", say – and the orchestrator has the LLM turn it into a clean issue draft with title and description. Once I confirm the draft with ✅, the issue is created in Gitea and lands in the backlog, ready for the next `!plan`.
+
+This is meant for **simple issues** only: small, clearly scoped tasks that I can describe in a sentence or two. Anything more complex still gets written up properly in Gitea, because vague issues create long loops (more on that below). The big advantage is that the barrier to capturing a thought is almost zero – I can do it from my phone while walking the dog, and it ends up in the same single source of truth as everything else.
 
 ## Where Does It All Run?
 
