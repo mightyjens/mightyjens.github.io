@@ -1,5 +1,5 @@
 baseURL: https://www.bytehero.io
-languageCode: en-us
+locale: en-us
 title: bytehero.io
 theme: ["hugo-redirect", "PaperMod"]
 
