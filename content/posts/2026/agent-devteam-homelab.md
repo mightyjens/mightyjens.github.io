@@ -56,7 +56,7 @@ In daily use it looks like this:
 1. Create issues in Gitea, set a priority – or simply drop an idea into the Matrix inbox channel (see below).
 2. Send `!plan` in Matrix. The Scrum Master posts a sprint proposal and one card per issue.
 3. Approve a card with ✅ (or `!approve all`, `!reject`, `!retry`, `!pause` …).
-4. The orchestrator queues the issue, starts a fresh sandbox and lets the coding agent ([Aider](https://aider.chat), headless) work against the LLM.
+4. The orchestrator queues the issue, starts a fresh sandbox and lets the coding agent ([Aider](https://aider.chat), headless) work against the LLM. The LLM can be local or in the cloud, with LocalAI acting as a proxy in between. That way different models can be mapped to different effort levels (S/M/L).
 5. Green tests → PR with `Closes #<nr>` and the test output, linked in the card's thread. Red tests → `WIP:` PR and `blocked`.
 6. I review and merge – the orchestrator sets `done`.
 
@@ -67,6 +67,42 @@ A nice side effect: if I reply in a card's Matrix thread, it ends up as a commen
 Not every idea deserves a trip to the Gitea web UI. That's why there is a dedicated `#inbox` room in Matrix. I write a short, free-form message there – "add a `--dry-run` flag to the export script", say – and the orchestrator has the LLM turn it into a clean issue draft with title and description. Once I confirm the draft with ✅, the issue is created in Gitea and lands in the backlog, ready for the next `!plan`.
 
 This is meant for **simple issues** only: small, clearly scoped tasks that I can describe in a sentence or two. Anything more complex still gets written up properly in Gitea, because vague issues create long loops (more on that below). The big advantage is that the barrier to capturing a thought is almost zero – I can do it from my phone while walking the dog, and it ends up in the same single source of truth as everything else.
+
+## Labels: Type, Priority and Effort
+
+Besides the `status/*` labels, every issue carries three more label groups. All of them are mutually exclusive – one label per group – and they are what turns a plain backlog into something the Scrum Master can plan with.
+
+### Types
+
+| Label | Meaning |
+|---|---|
+| `type/bug` | Something is broken and should behave differently. |
+| `type/feature` | New behavior or capability. |
+| `type/chore` | Maintenance work without visible behavior change: refactoring, cleanup, dependencies. |
+
+The type is optional. If I don't set it, the Scrum Master has the LLM estimate it during `!plan` and sets the label itself – but it never overwrites a label I set by hand.
+
+### Priority
+
+`prio/high`, `prio/medium` and `prio/low` decide the order in the queue. An issue without a priority simply goes last, which is a good incentive to set one.
+
+### Efforts
+
+| Label | Typical task | Model used |
+|---|---|---|
+| `effort/S` | Small, clearly scoped change (a flag, a one-line fix, a small helper) | fast model without reasoning |
+| `effort/M` | A normal feature or bug fix touching a few files | default model |
+| `effort/L` | Larger change across several modules | default or a stronger model |
+
+Effort is also optional and is estimated by the LLM during `!plan` if missing, again without overwriting. But it is more than a label: the effort decides **which model does the work**. Each size can be mapped to its own model via configuration (`LLM_MODEL_S`, `LLM_MODEL_M`, `LLM_MODEL_L`), falling back to a default model. Because LocalAI sits in front as a proxy, a "model" is just an alias – it can point to a local model or to a cloud API.
+
+This turned out to matter a lot in practice. My default model reasons by default, which is great for hard problems but wasteful for small ones. For `effort/S` I mapped a second alias to a non-reasoning model, and a typical small run dropped from up to ten minutes to about 20 seconds.
+
+Effort also acts as an early warning: if an issue looks like an `L` and keeps hitting the 30-minute limit, it's too big. The fix is never a longer timeout, but splitting it into smaller issues.
+
+### What the Card Shows
+
+All of this ends up on the issue card in Matrix, in one line – for example `🐞 bug · 🔴 prio high · ⏱ effort M · 📌 proposed` – followed by a short summary. Fields that are missing are simply hidden. So when I approve with ✅, I see at a glance what kind of work it is, how urgent it is and roughly how big it is.
 
 ## Where Does It All Run?
 
@@ -102,11 +138,9 @@ The orchestrator polls Gitea. An org webhook merely wakes this poller up immedia
 
 ## Learnings
 
-- **The LLM backend is the bottleneck.** My LocalAI processes requests one after another. While the coding agent waits for a response, `!plan` and the inbox hang as well. A non-reasoning model for small tasks (effort S) cut the runtime from up to 10 minutes to under one.
-- **Long silence breaks log streams.** The log stream through the socket proxy dropped during minutes of waiting, and the run was wrongly reported as failed even though the PR was there. Fix: reconnect and check the end state via a status query.
 - **Agents don't automatically read project rules.** Aider doesn't pick up `AGENTS.md` on its own; the LLM only sees the prompt, the repo map and the files in the chat. That's why the wrapper writes the rules into the prompt itself.
 - **Vague issues create long loops.** "Check the tests again" is not a task. The title must describe the outcome, the description the acceptance criteria. One issue equals exactly one well-defined task.
-- **Never push to an already merged PR branch.** Follow-up commits got lost that way – since then I've enabled "Delete branch after merge".
+- **Never push to an already merged PR branch.** Follow-up commits got lost that way – the fix is to enable "Delete branch after merge" in Gitea.
 
 ## Current Status and Outlook
 
@@ -114,8 +148,6 @@ Version 1 runs end to end: planning, approval, implementation in the sandbox, PR
 
 - CI via `act_runner` as a status check in branch protection,
 - an iteration limit and a token budget,
-- monitoring of the health endpoint,
-- sandboxes for more languages (currently only Python with `pytest`; C#, Node and AL are still missing),
-- moving the LLM backend to an NVIDIA DGX Spark.
+- monitoring of the health endpoint.
 
 My main takeaway so far: with tight guardrails, small issues and a human reviewing every PR, a local agent team is already usable today – for boilerplate, small features and refactorings. It does worse on long, multi-step tasks, and there the only remedy is: cut the task smaller.
