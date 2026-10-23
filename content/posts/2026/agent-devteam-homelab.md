@@ -68,6 +68,10 @@ Once approved, the Dev Agent takes over. It starts the run, opens the PR with gr
 
 ![Matrix: the Dev Agent starts the run on branch agent/issue-48, reports PR #49 with green tests, and the Scrum Master confirms the merge](/posts/2026/agent-devteam-homelab/matrix-approved-pr-merged.png)
 
+The same issue as seen in Gitea – the full workflow is visible in its timeline. The Scrum Master sets the labels and assigns the Developer agent, which links its PR and commit; the `status` label moves from `approved` via `in-progress` and `review` to `done` after my merge, and the run result (PR, test status, duration, model, log file) is posted as a comment:
+
+![Gitea issue timeline: scrum-bot sets type, prio, source, effort and status labels, dev-bot is assigned and references PR #49, the status label moves from approved via in-progress and review to done](/posts/2026/agent-devteam-homelab/gitea-issue-timeline.png)
+
 A nice side effect: if I reply in a card's Matrix thread, it ends up as a comment on the issue, and the agent reads it on its next run. That lets me steer after a `blocked` without opening Gitea.
 
 ### The Inbox Channel: Issues Straight from Matrix
