@@ -60,11 +60,21 @@ In daily use it looks like this:
 5. Green tests → PR with `Closes #<nr>` and the test output, linked in the card's thread. Red tests → `WIP:` PR and `blocked`.
 6. I review and merge – the orchestrator sets `done`.
 
+`!plan` in Matrix: the Scrum Master answers with a sprint proposal and posts one card per issue, which I approve with ✅:
+
+![Matrix: the `!plan` command returns a sprint proposal with the recommended order and an issue card with ✅/❌ reactions](/posts/2026/agent-devteam-homelab/matrix-plan-proposal.png)
+
+Once approved, the Dev Agent takes over. It starts the run, opens the PR with green tests and asks me to review – after the merge, the Scrum Master closes the loop:
+
+![Matrix: the Dev Agent starts the run on branch agent/issue-48, reports PR #49 with green tests, and the Scrum Master confirms the merge](/posts/2026/agent-devteam-homelab/matrix-approved-pr-merged.png)
+
 A nice side effect: if I reply in a card's Matrix thread, it ends up as a comment on the issue, and the agent reads it on its next run. That lets me steer after a `blocked` without opening Gitea.
 
 ### The Inbox Channel: Issues Straight from Matrix
 
 Not every idea deserves a trip to the Gitea web UI. That's why there is a dedicated `#inbox` room in Matrix. I write a short, free-form message there – "add a `--dry-run` flag to the export script", say – and the orchestrator has the LLM turn it into a clean issue draft with title and description. Once I confirm the draft with ✅, the issue is created in Gitea and lands in the backlog, ready for the next `!plan`.
+
+![Matrix inbox: a free-form message becomes an issue draft with context, goal and acceptance criteria; after ✅ the issue is created in Gitea](/posts/2026/agent-devteam-homelab/matrix-inbox-issue-draft.png)
 
 This is meant for **simple issues** only: small, clearly scoped tasks that I can describe in a sentence or two. Anything more complex still gets written up properly in Gitea, because vague issues create long loops (more on that below). The big advantage is that the barrier to capturing a thought is almost zero – I can do it from my phone while walking the dog, and it ends up in the same single source of truth as everything else.
 
